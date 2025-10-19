@@ -1,0 +1,23 @@
+MetaFileClass {
+ Name "{AFA5330F03F2C298}Assets/Vehicles/Tracked/BFV/data/Textures/BODY_VFX.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   MaxSize "512"
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+   MaxSize "512"
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+   MaxSize "512"
+  }
+  TIFFResourceClass PS4 : PC {
+   MaxSize "512"
+  }
+  TIFFResourceClass HEADLESS : PC {
+   MaxSize "512"
+  }
+  TIFFResourceClass PS5 : PC {
+   MaxSize "512"
+  }
+ }
+}

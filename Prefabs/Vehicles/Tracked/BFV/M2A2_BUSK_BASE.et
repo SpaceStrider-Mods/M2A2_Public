@@ -1,0 +1,67 @@
+Tank : "{ABCC1FF0D6096E47}Prefabs/Vehicles/Tracked/BFV/M2A2_BASE.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  BaseLightManagerComponent "{51E210F17D2534F7}" {
+   EmissiveSurfaceSlots {
+    SCR_EmissiveLightSurfaceSlot LHeadlight {
+     Offset 0.08 0.2 0
+    }
+    SCR_EmissiveLightSurfaceSlot RHeadlight {
+     Offset 0.08 0.2 0
+    }
+    SCR_EmissiveLightSurfaceSlot LFrontIndicator {
+     Offset 0.08 0.2 0
+    }
+    SCR_EmissiveLightSurfaceSlot RFrontIndicator {
+     Offset 0.08 0.2 0
+    }
+   }
+  }
+  RigidBody "{51DAA09FECF52BBF}" {
+   Mass 32000
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#BFV-Vehicle_M2A2_BUSK_Name"
+    m_Image "{54C2A6976F6B1643}UI/Textures/EditorPreviews/Vehicles/Tracked/BFV/M2OD_BUSK.edds"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 2500
+     }
+    }
+   }
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Simulation Wheeled "{4D8B26DEA5F25978}" {
+    Axles {
+     Axle "{4D8B26DF957A8E1C}" {
+      Suspension Suspension "{630F536A8C8847C7}" {
+       SpringRate 160
+      }
+     }
+     Axle "{5EE6684A64EEE7E2}" {
+      Suspension Suspension "{630F536AE4C2A474}" {
+       SpringRate 160
+      }
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{5846B1E04C33931E}Prefabs/Vehicles/Tracked/BFV/VehParts/Turret/M2A2_Turret_BUSK_Base.et"
+    }
+    EntitySlotInfo LightMount {
+     Offset 0.08 0.2 0
+    }
+    RegisteringComponentSlotInfo BUSK {
+     MergePhysics 1
+     Prefab "{FBC18922437B36C6}Prefabs/Vehicles/Tracked/BFV/VehParts/ERA/BUSK_Block_Main.et"
+     RegisterDamage 1
+    }
+   }
+  }
+ }
+ coords -5.202 -0.129 -2.361
+}

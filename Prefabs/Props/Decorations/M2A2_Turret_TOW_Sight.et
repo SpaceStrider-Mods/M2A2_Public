@@ -1,0 +1,31 @@
+GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{931F765593596CE3}Assets/Vehicles/Tracked/BFV/BFV_Turret_Sight_BASE.xob"
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    HitZone HitZone {
+     HZDefault 1
+    }
+   }
+  }
+  SCR_DestructionMultiPhaseComponent "{5224CAD70FC17C84}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   Enabled 0
+   m_fBaseHealth 300
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{5E26379DF4F63403}" {
+     m_ModelPrefabs {
+      "{E83705009336463D}Assets/Props/Decorations/AnimalHide_01/AnimalHide_01.xob"
+     }
+     m_eMaterialSoundType MATRESS
+    }
+   }
+  }
+  RplComponent "{63136787FD0BCE14}" {
+   "Rpl State Override" Runtime
+  }
+ }
+ coords 0 0 0
+}

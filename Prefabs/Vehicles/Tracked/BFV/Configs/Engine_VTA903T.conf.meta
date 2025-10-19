@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{67EE31295CF3D758}Prefabs/Vehicles/Tracked/BFV/Configs/Engine_VTA903T.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

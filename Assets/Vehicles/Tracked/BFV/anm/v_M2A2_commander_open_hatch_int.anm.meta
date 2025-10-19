@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0BCCE79ACDCC36F2}Assets/Vehicles/Tracked/BFV/anm/v_M2A2_commander_open_hatch_int.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C1B4E307A56A11B0}Prefabs/Vehicles/Tracked/BFV/VehParts/Turret/M2A3_Turret_BUSK_MERDC.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

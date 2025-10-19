@@ -1,0 +1,82 @@
+MetaFileClass {
+ Name "{6FD8A168FFDC8AE1}Assets/Vehicles/Tracked/BFV/M2A3_Upgrade.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{64D6A2613A72498C}" {
+     SourceMaterial "UPGRADES"
+     AssignedMaterial "{2AC78E8498A13036}Assets/Vehicles/Tracked/BFV/data/UPGRADES.emat"
+    }
+    MaterialAssignClass "{64D6A2613A72497F}" {
+     SourceMaterial "TURRET_GLASS"
+     AssignedMaterial "{DFFCB740D8B90D82}Assets/Vehicles/Tracked/BFV/data/TURRET_GLASS.emat"
+    }
+   }
+   MeshParams {
+    MeshParam BUSK_UPGRADE {
+    }
+    MeshParam "BUSK_UPGRADE.001" {
+    }
+    MeshParam "BUSK_UPGRADE.002" {
+    }
+   }
+   GeometryParams {
+    GeometryParam "UTM_FV_BUSK_UPGRADE.002" {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{962A3D033BAD4606}Common/Materials/Game/Metal/metal_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_BUSK_UPGRADE {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{962A3D033BAD4606}Common/Materials/Game/Metal/metal_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_V_BUSK_UPGRADE {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{962A3D033BAD4606}Common/Materials/Game/Metal/metal_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UBX_V_BUSK_UPGRADE.001" {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{962A3D033BAD4606}Common/Materials/Game/Metal/metal_3mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{64D6A2613A89FADE}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{64D6A2613A89F5FB}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{64D6A2613A89F5C2}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{64D6A2613A89F591}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{64D6A2613A89F56A}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{64D6A2613A89F546}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

@@ -1,0 +1,41 @@
+MatPBRMulti {
+ Cull none
+ RoughnessScale 1.06
+ GlobalMCRMap "{F5D82EBAFA00FA53}Assets/Vehicles/Tracked/BFV/data/Textures/TURRET_MCR.edds"
+ MaskMap "{5EA4F85990F5C064}Assets/Vehicles/Tracked/BFV/data/Textures/TURRET_GLOBAL_MASK.edds"
+ VFXMap "{41191A110DED897F}Assets/Vehicles/Tracked/BFV/data/Textures/TURRET_VFX.edds"
+ NormalPower 0.422
+ GlobalNMOMap "{316B1FB951893813}Assets/Vehicles/Tracked/BFV/data/Textures/TURRET_NMO.edds"
+ DirtOpacity 0.208
+ DirtLayerSharpness 1.977
+ DirtColor 0.141 0.132 0.115 1
+ DirtRoughness 1.5
+ DirtBCRMap "{15A4D0147C0F3804}Assets/_SharedData/Plaster/ST_Plaster_Damaged_01_BCR.edds"
+ DirtMaskMap "{82A0289C4982ADA1}Assets/_SharedData/DetailMask/ST_Dirt_Rock_01_Mask1.edds"
+ DirtUVTransform MatUVTransform "{5E2080939DECE9DF}" {
+  TilingU 7
+  TilingV 7
+ }
+ Enabled_2 1
+ Color_2 0.314 0.243 0.157 1
+ BCR_2 "{8A0C885766CAD60D}Assets/_SharedData/Metal/ST_Rust_01_Aluminium_V2_BCR.edds"
+ NMO_2 "{C2AC9474786C75F8}Assets/_SharedData/Metal/ST_Steel_Base_01_NMO.edds"
+ MaskSharpness_2 1
+ MaskOffset_2 0.113
+ Mask_2 "{1B7EB2580B7412F0}Assets/_SharedData/DetailMask/ST_Smudge_01_Mask1.edds"
+ UVTransform_2 MatUVTransform "{5E2080938617D7B8}" {
+  TilingU 10
+  TilingV 10
+ }
+ Roughness_2 2.7
+ Metalness_2 0.04
+ BCR_1 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_1 "{5E9B5A9AF633BD94}Assets/_SharedData/Metal/ST_Steel_Battered_NMO.edds"
+ UVTransform_1 MatUVTransform "{5E2080949C58D6DE}" {
+  TilingU 10
+  TilingV 10
+ }
+ DetNormal_1 0.2
+ Roughness_1 1.8
+ Metalness_1 0
+}

@@ -1,0 +1,23 @@
+MetaFileClass {
+ Name "{D85FF38785A20805}Assets/Vehicles/Tracked/BFV/data/Textures/BODY_GLOBAL_MASK_MERDC.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass PS4 : PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass HEADLESS : PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass PS5 : PC {
+   MaxSize "1024"
+  }
+ }
+}

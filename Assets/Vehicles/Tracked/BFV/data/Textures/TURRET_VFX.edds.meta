@@ -1,0 +1,23 @@
+MetaFileClass {
+ Name "{41191A110DED897F}Assets/Vehicles/Tracked/BFV/data/Textures/TURRET_VFX.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   MaxSize "512"
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+   MaxSize "512"
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+   MaxSize "512"
+  }
+  TIFFResourceClass PS4 : PC {
+   MaxSize "512"
+  }
+  TIFFResourceClass HEADLESS : PC {
+   MaxSize "512"
+  }
+  TIFFResourceClass PS5 : PC {
+   MaxSize "512"
+  }
+ }
+}

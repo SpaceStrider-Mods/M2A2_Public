@@ -1,0 +1,9 @@
+MatPBRBasicGlass {
+ Color 0.133 0.133 0.133 1
+ AlphaMul 0.905
+ BCRMap "{8B59275E8F260750}Assets/_SharedData/Glass/ST_Glass_Test_01_BCR.edds"
+ GlobalMapsUVTransform MatUVTransform "{5E6459DADCF28AF4}" {
+  TilingU 20
+  TilingV 20
+ }
+}

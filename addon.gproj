@@ -1,0 +1,83 @@
+GameProject {
+ ID "BFV"
+ GUID "63120AE07E6C0966"
+ TITLE "M2 Bradley Fighting Vehicle"
+ Dependencies {
+  "58D0FB3206B6F859" "5E389BB9F58B79A6" "629B2BA37EFFD577"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{63105AA00458A008}" {
+      StringTableSource "{81F087E7813D1B5C}Language/Localization_BFV.st"
+      Languages {
+       LanguageDefinition "{63105AA001D4994D}" {
+        Code "cs_cz"
+        StringTableRuntime "{B3A5DCD6544C1D69}Language/Localization_BFV.cs_cz.conf"
+       }
+       LanguageDefinition "{63105AA001D4990C}" {
+        Code "de_de"
+        StringTableRuntime "{66DBC6E547EF0C49}Language/Localization_BFV.de_de.conf"
+       }
+       LanguageDefinition "{63105AA001D4991F}" {
+        Code "en_us"
+        StringTableRuntime "{382B4CAE2D1C0948}Language/Localization_BFV.en_us.conf"
+       }
+       LanguageDefinition "{63105AA001D498E3}" {
+        Code "es_es"
+        StringTableRuntime "{FD670127C31E6257}Language/Localization_BFV.es_es.conf"
+       }
+       LanguageDefinition "{63105AA001D498F2}" {
+        Code "fr_fr"
+        StringTableRuntime "{46CFF410259D8155}Language/Localization_BFV.fr_fr.conf"
+       }
+       LanguageDefinition "{63105AA001D498C7}" {
+        Code "it_it"
+        StringTableRuntime "{C6D37B2488BF02AC}Language/Localization_BFV.it_it.conf"
+       }
+       LanguageDefinition "{63105AA001D498D5}" {
+        Code "ja_jp"
+        StringTableRuntime "{D6C8C6B6B6CE3207}Language/Localization_BFV.ja_jp.conf"
+       }
+       LanguageDefinition "{63105AA001D498B9}" {
+        Code "ko_kr"
+        StringTableRuntime "{7676EE1A25E33138}Language/Localization_BFV.ko_kr.conf"
+       }
+       LanguageDefinition "{63105AA001D498B6}" {
+        Code "pl_pl"
+        StringTableRuntime "{2A0748E09B0CAD44}Language/Localization_BFV.pl_pl.conf"
+       }
+       LanguageDefinition "{63105AA001D49884}" {
+        Code "pt_br"
+        StringTableRuntime "{FF70D22CA0F267FE}Language/Localization_BFV.pt_br.conf"
+       }
+       LanguageDefinition "{63105AA001D4986A}" {
+        Code "ru_ru"
+        StringTableRuntime "{AA31C6843D8B0288}Language/Localization_BFV.ru_ru.conf"
+       }
+       LanguageDefinition "{63105AA001D49BEF}" {
+        Code "uk_ua"
+        StringTableRuntime "{2069937251A5BCDD}Language/Localization_BFV.uk_ua.conf"
+       }
+       LanguageDefinition "{63105AA001D49BF1}" {
+        Code "zh_cn"
+        StringTableRuntime "{FAD9FD4F68056CC0}Language/Localization_BFV.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

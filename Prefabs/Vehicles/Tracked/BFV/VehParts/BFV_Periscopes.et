@@ -1,0 +1,14 @@
+GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{5151B16C30F41EB7}Assets/Vehicles/Tracked/BFV/BFV_Triplex.xob"
+  }
+  RigidBody "{4B42E71692C2FB79}" {
+   Enabled 0
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   Enabled 0
+  }
+ }
+}

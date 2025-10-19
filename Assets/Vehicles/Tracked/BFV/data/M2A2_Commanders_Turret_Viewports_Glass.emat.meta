@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AD35203D92DD2CE3}Assets/Vehicles/Tracked/BFV/data/M2A2_Commanders_Turret_Viewports_Glass.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+ }
+}

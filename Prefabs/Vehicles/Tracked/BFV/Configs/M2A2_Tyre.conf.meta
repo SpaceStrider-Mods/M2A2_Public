@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6597569C40649766}Prefabs/Vehicles/Tracked/BFV/Configs/M2A2_Tyre.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+ }
+}

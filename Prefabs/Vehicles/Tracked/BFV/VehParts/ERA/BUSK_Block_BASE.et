@@ -1,0 +1,31 @@
+GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  BaseTriggerComponent "{605C602C63104ED0}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{605C602C63104EC5}" {
+     EffectPrefab "{5DC37534B7C424D8}Prefabs/Weapons/Warheads/Warhead_ERA_Kontakt.et"
+     ParticleEffect "{B6275B6B9E29E9ED}Particles/Weapon/Explosion_RPG7V1.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+  }
+  SCR_MineDamageManager "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_MineHitZone ERA {
+     ColliderNames {
+      "UTM_BUSK_Block_Front_FireView"
+     }
+     HZDefault 1
+     DamageReduction 10
+     DamageThreshold 0
+     "Collision multiplier" 0.01
+     "Melee multiplier" 0
+     "Kinetic multiplier" 0.01
+     "Fragmentation multiplier" 0
+     "Explosive multiplier" 0.005
+    }
+   }
+  }
+ }
+}

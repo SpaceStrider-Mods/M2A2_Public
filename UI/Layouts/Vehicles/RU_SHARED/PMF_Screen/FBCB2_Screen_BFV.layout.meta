@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E642B11C05EF91A3}UI/Layouts/Vehicles/RU_SHARED/PMF_Screen/FBCB2_Screen_BFV.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass PS5 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+ }
+}

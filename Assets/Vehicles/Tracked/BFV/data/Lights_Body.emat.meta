@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3DD20FC0DFC0B5C1}Assets/Vehicles/Tracked/BFV/data/Lights_Body.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+ }
+}

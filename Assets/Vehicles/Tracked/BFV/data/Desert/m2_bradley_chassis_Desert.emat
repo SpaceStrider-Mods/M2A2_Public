@@ -1,0 +1,3 @@
+MatPBRBasic : "{3B028FC2C71739D9}Assets/Vehicles/Tracked/BFV/data/m2_bradley_chassis.emat" {
+ BCRMap "{663FB68F696D6A46}Assets/Vehicles/Tracked/BFV/data/Textures/m2_bradley_chassis_Desert_BCR.edds"
+}

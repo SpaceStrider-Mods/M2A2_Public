@@ -1,0 +1,9 @@
+MatPBRBasicGlass {
+ AlphaMul 0
+ RoughnessScale 0
+ BCRMap "{5A14C4E87B853DDF}Assets/Vehicles/Tracked/BFV/data/Textures/Bradley38_UV_INTERIOR_TURRET_BCR.edds"
+ FrontFaceInterior 1
+ FresnelPower 1.092
+ FresnelBias 0.06
+ Backscatterig 0.072
+}

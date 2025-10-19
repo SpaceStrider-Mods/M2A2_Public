@@ -1,0 +1,16 @@
+MatPBRBasic {
+ Emissive 1 1 1 0
+ EmissiveLV 3
+ EmissiveAbsoluteLV 0
+ ApplyAlbedoToEmissive 1
+ SpecularMul 0.865
+ RoughnessScale 0.337
+ MetalnessScale 0.76
+ AOScale 0.728
+ DielectricReflectance 0.066
+ CavityFromAO 0.093
+ EmissiveMap "{1B6407A4F41FB1B4}Assets/Vehicles/Tracked/BFV/data/Textures/BODY_MCR.edds"
+ BCRMap "{1B6407A4F41FB1B4}Assets/Vehicles/Tracked/BFV/data/Textures/BODY_MCR.edds"
+ NormalPower 0.821
+ NMOMap "{DFD736A75F9673F4}Assets/Vehicles/Tracked/BFV/data/Textures/BODY_NMO.edds"
+}

@@ -1,0 +1,8 @@
+MatPBRBasic {
+ Cull none
+ BlendMode AlphaBlend
+ RoughnessScale 1.1
+ BCRMap "{0671986B8802015F}Assets/Vehicles/Tracked/BFV/data/Textures/m2_bradley_tracks_flat_BCR.edds"
+ OpacityMap "{0CC6ADF9F0E25C40}Assets/Vehicles/Tracked/BFV/data/Textures/m2_bradley_tracks_flat_A.edds"
+ NMOMap "{3EA923F9517553C1}Assets/Vehicles/Tracked/BFV/data/Textures/m2_bradley_tracks_flat_NMO.edds"
+}

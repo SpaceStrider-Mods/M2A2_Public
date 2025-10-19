@@ -1,0 +1,47 @@
+MatPBRMulti {
+ GlobalMCRMap "{1B6407A4F41FB1B4}Assets/Vehicles/Tracked/BFV/data/Textures/BODY_MCR.edds"
+ MaskMap "{9AE7E5D179C651A4}Assets/Vehicles/Tracked/BFV/data/Textures/BODY_GLOBAL_MASK.edds"
+ MaskRedScale 1
+ MaskGreenScale 1
+ VFXMap "{AFA5330F03F2C298}Assets/Vehicles/Tracked/BFV/data/Textures/BODY_VFX.edds"
+ GlobalNMOMap "{DFD736A75F9673F4}Assets/Vehicles/Tracked/BFV/data/Textures/BODY_NMO.edds"
+ MudOpacity 0.974
+ MudColor 0.095 0.086 0.073 1
+ MudRoughness 2
+ MudMetalness 0
+ MudBCRMap "{15A4D0147C0F3804}Assets/_SharedData/Plaster/ST_Plaster_Damaged_01_BCR.edds"
+ MudNMOMap "{96EF3CD8C8E643BA}Assets/_SharedData/Dirt/ST_Mud_01_NMO.edds"
+ MudMaskMap "{816ABEBED1A52FF3}Assets/_SharedData/DetailMask/ST_Mud_01_Mask.edds"
+ DirtOpacity 0.208
+ DirtLayerSharpness 5
+ DirtColor 0.141 0.132 0.115 1
+ DirtRoughness 1.5
+ DirtBCRMap "{15A4D0147C0F3804}Assets/_SharedData/Plaster/ST_Plaster_Damaged_01_BCR.edds"
+ DirtMaskMap "{82A0289C4982ADA1}Assets/_SharedData/DetailMask/ST_Dirt_Rock_01_Mask1.edds"
+ DirtUVTransform MatUVTransform "{5E2080936782ECFE}" {
+  TilingU 8
+  TilingV 8
+ }
+ Enabled_2 1
+ Color_2 0.314 0.243 0.157 1
+ BCR_2 "{8A0C885766CAD60D}Assets/_SharedData/Metal/ST_Rust_01_Aluminium_V2_BCR.edds"
+ NMO_2 "{5E9B5A9AF633BD94}Assets/_SharedData/Metal/ST_Steel_Battered_NMO.edds"
+ MaskSharpness_2 1
+ MaskOffset_2 0.5
+ Mask_2 "{1B7EB2580B7412F0}Assets/_SharedData/DetailMask/ST_Smudge_01_Mask1.edds"
+ UVTransform_2 MatUVTransform "{5E208094880941C7}" {
+  TilingU 20
+  TilingV 20
+ }
+ DetNormal_2 0.4
+ Metalness_2 0
+ BCR_1 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_1 "{5E9B5A9AF633BD94}Assets/_SharedData/Metal/ST_Steel_Battered_NMO.edds"
+ UVTransform_1 MatUVTransform "{5E20809602C0A314}" {
+  TilingU 10
+  TilingV 10
+ }
+ DetNormal_1 0.2
+ Roughness_1 1.8
+ Metalness_1 0
+}

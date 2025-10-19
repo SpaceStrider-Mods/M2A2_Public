@@ -1,0 +1,33 @@
+Tank : "{D37EE00F2A5B9AB5}Prefabs/Vehicles/Tracked/BFV/M2A3_BUSK_BASE.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{64D93153ADEA4CFA}" {
+     SourceMaterial "BODY"
+     AssignedMaterial "{8A1B411383C3DDC2}Assets/Vehicles/Tracked/BFV/data/Merdc/BODY_Merdc.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#BFV-Vehicle_M2A3_BUSK3_Name"
+    m_Image "{D65761C49ECF79B2}UI/Textures/EditorPreviews/Vehicles/Tracked/BFV/M2A3MERDC_BUSK.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{C1B4E307A56A11B0}Prefabs/Vehicles/Tracked/BFV/VehParts/Turret/M2A3_Turret_BUSK_MERDC.et"
+    }
+    RegisteringComponentSlotInfo BUSK {
+     Prefab "{31C1FE7414DF7DEE}Prefabs/Vehicles/Tracked/BFV/VehParts/ERA/BUSK_Block_MERDC.et"
+    }
+    RegisteringComponentSlotInfo M2A3_Upgrades {
+     Prefab "{1356F19BB148260E}Prefabs/Vehicles/Tracked/BFV/VehParts/M2A3_Upgrades_MERDC.et"
+    }
+   }
+  }
+ }
+ coords 81.675 1 1221.751
+}

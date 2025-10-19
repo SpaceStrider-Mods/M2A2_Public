@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7E526C0B3A740DF2}Assets/Vehicles/Wheeled/LAV25/workspaces/M2A2_vehicle.asi"
+ Configurations {
+  AnimSetInstanceResourceClass PC {
+  }
+  AnimSetInstanceResourceClass XBOX_ONE : PC {
+  }
+  AnimSetInstanceResourceClass XBOX_SERIES : PC {
+  }
+  AnimSetInstanceResourceClass PS4 : PC {
+  }
+  AnimSetInstanceResourceClass PS5 : PC {
+  }
+  AnimSetInstanceResourceClass HEADLESS : PC {
+  }
+ }
+}

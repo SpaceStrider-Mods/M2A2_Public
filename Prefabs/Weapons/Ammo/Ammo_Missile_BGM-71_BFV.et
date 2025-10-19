@@ -1,0 +1,38 @@
+Projectile : "{EB720F74749D5AC4}Prefabs/Weapons/Ammo/Ammo_Missile_BGM-71.et" {
+ ID "629D11C7F7353F80"
+ components {
+  InventoryItemComponent "{62EB07A083C43139}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{62EB07A083C43135}" {
+    ItemDisplayName UIInfo "{62EB07A083C43136}" {
+     Name "#WCS-Magazine_BGM71_Name"
+     Description "Missile go brr"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{64F13C85BB2F7661}" {
+     Weight 14
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 1200
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{62EB07A083C43132}" {
+      CameraDistanceToItem 2
+     }
+    }
+    m_SlotType SLOT_BACKPACK
+    m_bDraggable 0
+   }
+  }
+  MagazineComponent "{62EB07A083C4310E}" {
+   UIInfo MagazineUIInfo "{62EB07A083C4310F}" {
+    m_bShowAmmoTypeText 0
+   }
+  }
+  WCS_Armament_RocketTraceEffectComponent "{62AEDD8D49C3AA13}" {
+   m_ExitParticle ""
+  }
+ }
+}

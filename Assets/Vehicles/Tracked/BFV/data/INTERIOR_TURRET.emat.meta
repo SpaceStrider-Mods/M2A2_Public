@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C3DD9874B12B92CF}Assets/Vehicles/Tracked/BFV/data/INTERIOR_TURRET.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+ }
+}

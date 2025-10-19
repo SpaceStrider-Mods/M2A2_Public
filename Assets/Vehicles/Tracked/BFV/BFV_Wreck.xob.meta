@@ -1,0 +1,164 @@
+MetaFileClass {
+ Name "{C0221A073A780540}Assets/Vehicles/Tracked/BFV/BFV_Wreck.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{5E634177C83D0C3D}" {
+     SourceMaterial "BODY"
+     AssignedMaterial "{59FD85CEF223D41E}Assets/Props/Wrecks/M113/Data/M113_wreck_Metals.emat"
+    }
+    MaterialAssignClass "{5E634177C83D0C58}" {
+     SourceMaterial "Lights_Body"
+     AssignedMaterial "{FD704944FE3CE371}Assets/Vehicles/Tracked/BFV/data/BODY.emat"
+    }
+    MaterialAssignClass "{5E634177C83D0C44}" {
+     SourceMaterial "Tracks"
+     AssignedMaterial "{59FD85CEF223D41E}Assets/Props/Wrecks/M113/Data/M113_wreck_Metals.emat"
+    }
+    MaterialAssignClass "{5E634177C83D0C42}" {
+     SourceMaterial "TURRET"
+     AssignedMaterial "{59FD85CEF223D41E}Assets/Props/Wrecks/M113/Data/M113_wreck_Metals.emat"
+    }
+    MaterialAssignClass "{5E634177C83D0C4E}" {
+     SourceMaterial "TURRET_GLASS"
+     AssignedMaterial "{DFFCB740D8B90D82}Assets/Vehicles/Tracked/BFV/data/TURRET_GLASS.emat"
+    }
+    MaterialAssignClass "{5E634177C83D0C67}" {
+     SourceMaterial "grey"
+     AssignedMaterial "{206EA3235EC694A4}Assets/Vehicles/Tracked/BFV/data/grey.emat"
+    }
+    MaterialAssignClass "{5E634177C83D0C7A}" {
+     SourceMaterial "glass"
+     AssignedMaterial "{196FB030D314B221}Assets/Vehicles/Tracked/BFV/data/glass.emat"
+    }
+    MaterialAssignClass "{5E634177C83D0C7E}" {
+     SourceMaterial "SIGHT"
+     AssignedMaterial "{F914706D655AA8A8}Assets/Vehicles/Tracked/BFV/data/SIGHT.emat"
+    }
+   }
+   MeshParams {
+    MeshParam BODY {
+    }
+    MeshParam Bushmaster_Wreck {
+    }
+    MeshParam TOW {
+    }
+    MeshParam TOW_Sight_Glass {
+    }
+    MeshParam Turret {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_TOW {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_tracks_flat_left {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_tracks_flat_right {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_VC_01 {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_VC_02 {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Turret_VS {
+     LayerPreset "VehicleSimple"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Vehicle_BODY_VS {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Vehicle_BODYLower_VS {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FireGeo_BODY {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{33CE4B76B338E44F}Common/Materials/Game/Armor/armor_20mm.gamemat"
+      "{DE262768AD81A12D}Common/Materials/Game/Armor/armor_25mm.gamemat"
+      "{A72820E3ABCD79FC}Common/Materials/Game/Armor/armor_30mm.gamemat"
+      "{5F9012D836479B1A}Common/Materials/Game/Armor/armor_10mm.gamemat"
+      "{63B8E1D41F2C6F98}Common/Materials/Game/rubber.gamemat"
+      "{C97BA59A04D0889A}Common/Materials/Game/GlassArmored/glass_armored_15mm.gamemat"
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+      "{DE262768AD81A12D}Common/Materials/Game/Armor/armor_25mm.gamemat"
+      "{1950188BB10D20EA}Common/Materials/Game/Metal/metal_5mm.gamemat"
+      "{18C62B7F4A626E3B}Common/Materials/Game/Armor/armor_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_TurretBasket {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5E634177F7E3E29A}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5E634177F7E345AC}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5E634177F7E34456}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5E634177F7E3448A}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5E634177F7E344F1}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

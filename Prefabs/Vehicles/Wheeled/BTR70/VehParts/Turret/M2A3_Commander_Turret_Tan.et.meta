@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4442C7C3C03A9EC8}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/M2A3_Commander_Turret_Tan.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

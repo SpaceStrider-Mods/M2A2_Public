@@ -1,0 +1,58 @@
+Turret : "{4462D57DD5C424C3}Prefabs/Vehicles/Tracked/BFV/VehParts/Turret/BFV_Turret_BASE.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    CargoCompartmentSlot Commander : "{9BD4548866DA1807}Prefabs/Vehicles/Core/Configs/CargoCompartment_Base.conf" {
+     CompartmentUniqueName "commander"
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "commander_hatch" "turret_base_door"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "turret_base_door" "commander"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "commander" "turret_base_door"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+        "commander_hatch" "ramp_r" "turret_base_door"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "v_commander_idle"
+     }
+     SeatType 1
+     DoorInfoList {
+      1
+     }
+     UIInfo SCR_ActionUIInfo "{50870A10CE897250}" {
+      Name "#AR-VehiclePosition_Commander"
+     }
+     BaseCoverage 0.3
+     CanTurnOut 1
+     TurnOutDoorIdx 1
+     m_DefaultOccupantData SCR_DefaultOccupantData "{62EF353084C59DB4}" {
+      m_sDefaultOccupantPrefab "{F35F145D4A3F75EF}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_CC.et"
+     }
+     m_fFreelookCameraNeckFollowTraverse 0
+    }
+   }
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{5E4A2EC55AA3DF18}" {
+     Radius 0.5
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,23 @@
+MetaFileClass {
+ Name "{0BAE81FAC2EC2985}Assets/Vehicles/Tracked/BFV/data/Textures/Bradley38_UV_INTERIOR_2_BCR.edds"
+ Configurations {
+  TIFFResourceClass PC : "{EAB5DE3219F9CBA8}Configs/System/ResourceTypes/PC/TextureColorMap.conf" {
+   FormatCompress Best
+  }
+  TIFFResourceClass XBOX_ONE : "{91D862F89991BFBE}Configs/System/ResourceTypes/XBOX_ONE/TextureColorMap.conf" {
+   FormatCompress Best
+  }
+  TIFFResourceClass XBOX_SERIES : "{5FEAED1642ECE679}Configs/System/ResourceTypes/XBOX_SERIES/TextureColorMap.conf" {
+   FormatCompress Best
+  }
+  TIFFResourceClass PS4 : "{12273E1A0928F0C4}Configs/System/ResourceTypes/PS4/TextureColorMap.conf" {
+   FormatCompress Best
+  }
+  TIFFResourceClass HEADLESS : "{BEAF5CD0C438676E}Configs/System/ResourceTypes/HEADLESS/TextureColorMap.conf" {
+   FormatCompress Best
+  }
+  TIFFResourceClass PS5 : PC {
+   FormatCompress Best
+  }
+ }
+}

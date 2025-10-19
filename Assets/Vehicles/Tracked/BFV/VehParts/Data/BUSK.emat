@@ -1,0 +1,23 @@
+MatPBRMulti {
+ GlobalMCRMap "{EFB4C6D0C0F20C90}Assets/Vehicles/Tracked/BFV/VehParts/Data/BUSK_BCR.edds"
+ GlobalMCRMode Multiply
+ MCRBrightness 0.7
+ VFXMap "{A71E78EA45E1EF62}Assets/Vehicles/Tracked/BFV/VehParts/Data/BUSK_VFX.edds"
+ NormalPower 2
+ GlobalNMOMap "{D76C7D4219855E0E}Assets/Vehicles/Tracked/BFV/VehParts/Data/BUSK_NMO.edds"
+ DirtOpacity 0.208
+ DirtLayerSharpness 1.977
+ DirtColor 0.141 0.132 0.115 1
+ DirtRoughness 1.5
+ DirtBCRMap "{15A4D0147C0F3804}Assets/_SharedData/Plaster/ST_Plaster_Damaged_01_BCR.edds"
+ DirtMaskMap "{82A0289C4982ADA1}Assets/_SharedData/DetailMask/ST_Dirt_Rock_01_Mask1.edds"
+ Color_1 0.024 0.027 0.019 1
+ BCR_1 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_1 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ UVTransform_1 MatUVTransform "{64773BC31CA43D34}" {
+  TilingU 8
+  TilingV 8
+ }
+ Roughness_1 2.7
+ Metalness_1 0
+}

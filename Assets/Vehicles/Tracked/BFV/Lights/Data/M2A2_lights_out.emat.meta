@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E5B5D0BDF5B8DBB7}Assets/Vehicles/Tracked/BFV/Lights/Data/M2A2_lights_out.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

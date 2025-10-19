@@ -1,0 +1,30 @@
+Tank : "{07CD2F66BF403D19}Prefabs/Vehicles/Tracked/BFV/M2A3_BASE.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{64D9315236C8AF01}" {
+     SourceMaterial "BODY"
+     AssignedMaterial "{7D93E51B472FCF5B}Assets/Vehicles/Tracked/BFV/data/Desert/BODY_Desert.emat"
+    }
+    MaterialAssignClass "{64D9315236C8AF33}" {
+     SourceMaterial "m2_bradley_chassis"
+     AssignedMaterial "{A759DDC07FAC6858}Assets/Vehicles/Tracked/BFV/data/Desert/m2_bradley_chassis_Desert.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{A416FC1627DE9B29}UI/Textures/EditorPreviews/Vehicles/Tracked/BFV/M2A3Desert.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{6594065C0DE2B973}Prefabs/Vehicles/Tracked/BFV/VehParts/Turret/M2A3_Turret_Desert.et"
+    }
+   }
+  }
+ }
+ coords 90.367 1 1246.802
+}

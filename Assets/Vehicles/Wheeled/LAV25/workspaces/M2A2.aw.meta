@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3B5A72CC11C29B41}Assets/Vehicles/Wheeled/LAV25/workspaces/M2A2.aw"
+ Configurations {
+  AnimWorkspaceResourceClass PC {
+  }
+  AnimWorkspaceResourceClass XBOX_ONE : PC {
+  }
+  AnimWorkspaceResourceClass XBOX_SERIES : PC {
+  }
+  AnimWorkspaceResourceClass PS4 : PC {
+  }
+  AnimWorkspaceResourceClass PS5 : PC {
+  }
+  AnimWorkspaceResourceClass HEADLESS : PC {
+  }
+ }
+}

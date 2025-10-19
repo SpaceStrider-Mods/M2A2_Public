@@ -1,0 +1,5 @@
+MatPBRBasic {
+ RoughnessScale 1.2
+ BCRMap "{60ABB994E182BC81}Assets/Vehicles/Tracked/BFV/data/Textures/m2_bradley_chassis_BCR.edds"
+ NMOMap "{5873020638F5EE1F}Assets/Vehicles/Tracked/BFV/data/Textures/m2_bradley_chassis_NMO.edds"
+}
