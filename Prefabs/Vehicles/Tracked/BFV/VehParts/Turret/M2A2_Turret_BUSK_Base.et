@@ -1,0 +1,15 @@
+Turret : "{70E0492DD7B8C988}Prefabs/Vehicles/Tracked/BFV/VehParts/Turret/M2A2_Turret_BASE.et" {
+ ID "51ACD0965653D003"
+ components {
+  SlotManagerComponent "{5E4A2EC25CB7BC2F}" {
+   Slots {
+    EntitySlotInfo BUSK {
+     PivotID "v_turret_01"
+     Offset 0 0.001 0
+     MergePhysics 1
+     Prefab "{75BB5E5565980BEC}Prefabs/Vehicles/Core/ERA/BUSK_Block_Turret_Main.et"
+    }
+   }
+  }
+ }
+}

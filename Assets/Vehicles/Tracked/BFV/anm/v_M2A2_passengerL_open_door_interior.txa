@@ -1,0 +1,119 @@
+$animation "" {
+ #version 2
+ #fps 30
+ #numFrames 40
+ $node "v_ramp" {
+  $keys t q s {
+   $frame 0 40 {
+    #t -0.01171 2.5537999 0.5475843
+    #q 0.70710665 -0.00000014 -0.00000009 0.70710689
+   }
+  }
+  $node "v_hatch_rear" {
+   $keys t q s {
+    $frame 0 15 {
+     #t 0.0652429 0.898086 -0.28139
+    }
+    $frame 16 {
+     #q -0.00002157 -0.00527312 0.00093692 0.99998564
+    }
+    $frame 17 {
+     #q -0.00008471 -0.02070692 0.00367908 0.99977881
+    }
+    $frame 18 {
+     #q -0.00018821 -0.04600432 0.00817373 0.99890786
+    }
+    $frame 19 {
+     #q -0.00033191 -0.0811298 0.01441457 0.99659932
+    }
+    $frame 20 {
+     #q -0.00051609 -0.12615043 0.0224135 0.99175775
+    }
+    $frame 21 {
+     #q -0.00074064 -0.1810378 0.03216547 0.98294979
+    }
+    $frame 22 {
+     #q -0.00100402 -0.24541555 0.04360363 0.96843642
+    }
+    $frame 23 {
+     #q -0.00130205 -0.31826541 0.05654704 0.94631279
+    }
+    $frame 24 {
+     #q -0.00162686 -0.39765808 0.07065293 0.91480798
+    }
+    $frame 25 {
+     #q -0.00196635 -0.48064098 0.08539672 0.8727473
+    }
+    $frame 26 {
+     #q -0.00230506 -0.56343502 0.10010694 0.82006973
+    }
+    $frame 27 {
+     #q -0.00262649 -0.64200091 0.11406596 0.75816685
+    }
+    $frame 28 {
+     #q -0.00291621 -0.71281987 0.12664856 0.68981117
+    }
+    $frame 29 {
+     #q -0.0031647 -0.77356124 0.13744059 0.61863017
+    }
+    $frame 30 {
+     #q -0.00336837 -0.82334328 0.1462855 0.54835689
+    }
+    $frame 31 {
+     #q 0.00352879 0.86255205 -0.1532518 -0.48218834
+    }
+    $frame 32 {
+     #q 0.00365089 0.89239711 -0.15855442 -0.42246255
+    }
+    $frame 33 {
+     #q 0.00374107 0.914442 -0.16247125 -0.37065494
+    }
+    $frame 34 {
+     #q 0.00380575 0.93025118 -0.16528004 -0.32756796
+    }
+    $frame 35 {
+     #q 0.00385048 0.94118494 -0.16722271 -0.29358596
+    }
+    $frame 36 {
+     #q 0.0038796 0.94830459 -0.16848765 -0.26891509
+    }
+    $frame 37 {
+     #q 0.00389611 0.95233858 -0.16920441 -0.25378332
+    }
+    $frame 38 40 {
+     #q 0.00390153 0.95366323 -0.16943975 -0.24859893
+    }
+   }
+  }
+ }
+ $events {
+  #event 14 "Sound" "AnimSrcEventGeneric \"{64D8D014807F74B3}\" {
+ Name \"Sound\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"SOUND_VEHICLE_BACKDOOR_OPEN_START.v_back_door_handle_L\"
+ UserInt -1
+}" 0 0 "" 0
+  #event 15 "Event_Vehicle_OpeningDoor_02" "AnimSrcEventGeneric \"{64D8D014807F7466}\" {
+ Name \"Event_Vehicle_OpeningDoor_02\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"\"
+ UserInt -1
+}" 0 23 "" 0
+  #event 37 "Event_Vehicle_CanFinishAction" "AnimSrcEventGeneric \"{64D8D014807F7442}\" {
+ Name \"Event_Vehicle_CanFinishAction\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"\"
+ UserInt 2
+}" 0 0 "" 0
+  #event 39 "Sound" "AnimSrcEventGeneric \"{64D8D014807F7429}\" {
+ Name \"Sound\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"SOUND_VEHICLE_BACKDOOR_OPEN_FINISH.v_back_door_handle_L\"
+ UserInt -1
+}" 0 0 "" 0
+ }
+}

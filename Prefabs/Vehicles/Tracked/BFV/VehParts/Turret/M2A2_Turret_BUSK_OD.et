@@ -1,0 +1,11 @@
+Turret : "{5846B1E04C33931E}Prefabs/Vehicles/Tracked/BFV/BFV_Turret_BUSK_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  SlotManagerComponent "{5E4A2EC25CB7BC2F}" {
+   Slots {
+    EntitySlotInfo BUSK {
+    }
+   }
+  }
+ }
+}

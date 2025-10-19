@@ -1,0 +1,14 @@
+Turret : "{70E0492DD7B8C988}Prefabs/Vehicles/Tracked/BFV/VehParts/Turret/M2A2_Turret_BASE.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{5E622E8F5A2F91C9}" {
+     SourceMaterial "TURRET"
+     AssignedMaterial "{C6AA5D9C9A3E6B3A}Assets/Vehicles/Tracked/BFV/data/Desert/TURRET_Desert.emat"
+    }
+   }
+  }
+ }
+ coords -3.699 -0.319 -5.257
+}

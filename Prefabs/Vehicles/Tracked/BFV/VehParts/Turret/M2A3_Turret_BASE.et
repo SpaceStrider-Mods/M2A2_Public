@@ -1,0 +1,27 @@
+Turret : "{4462D57DD5C424C3}Prefabs/Vehicles/Tracked/BFV/VehParts/Turret/BFV_Turret_BASE.et" {
+ ID "51ACD0965653D003"
+ components {
+  SlotManagerComponent "{5E4A2EC25CB7BC2F}" {
+   Slots {
+    RegisteringComponentSlotInfo Commander_CITV {
+     PivotID "v_turret_01"
+     Offset -0.1854 -2.19697 -0.01517
+     MergePhysics 1
+     Prefab "{583F19F5752BA737}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/M2A3_Commander_Turret.et"
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 0
+     RegisterCompartments 1
+    }
+   }
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{5E4A2EC55AA3DF18}" {
+     Radius 0.5
+    }
+   }
+  }
+ }
+}

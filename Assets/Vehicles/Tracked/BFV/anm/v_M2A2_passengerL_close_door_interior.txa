@@ -1,0 +1,114 @@
+$animation "" {
+ #version 2
+ #fps 30
+ #numFrames 55
+ $node "v_ramp" {
+  $keys t q s {
+   $frame 0 55 {
+    #t -0.01171 2.5537999 0.5475843
+    #q 0.70710665 -0.00000014 -0.00000009 0.70710689
+   }
+  }
+  $node "v_hatch_rear" {
+   $keys t q s {
+    $frame 0 30 {
+     #t 0.0652429 0.898086 -0.28139
+     #q 0.00390153 0.95366323 -0.16943975 -0.24859893
+    }
+    $frame 31 {
+     #q 0.00389503 0.95207435 -0.16915748 -0.25480416
+    }
+    $frame 32 {
+     #q 0.0038751 0.94720387 -0.16829212 -0.27288762
+    }
+    $frame 33 {
+     #q 0.00383946 0.93849057 -0.16674401 -0.30235276
+    }
+    $frame 34 {
+     #q 0.00378374 0.92487144 -0.16432425 -0.34292299
+    }
+    $frame 35 {
+     #q 0.00370169 0.90481508 -0.16076082 -0.39427406
+    }
+    $frame 36 {
+     #q 0.00358544 0.87640166 -0.1557125 -0.45569843
+    }
+    $frame 37 {
+     #q -0.00342644 -0.83754003 0.14880785 0.52571028
+    }
+    $frame 38 {
+     #q -0.00321728 -0.7864117 0.13972378 0.60168386
+    }
+    $frame 39 {
+     #q -0.00295438 -0.72215056 0.12830634 0.67972594
+    }
+    $frame 40 {
+     #q -0.0026411 -0.64557284 0.11470059 0.75503165
+    }
+    $frame 41 {
+     #q -0.0022892 -0.55955708 0.09941795 0.82280421
+    }
+    $frame 42 {
+     #q -0.00191751 -0.46870342 0.08327574 0.87941957
+    }
+    $frame 43 {
+     #q -0.00154767 -0.3783026 0.067214 0.92323726
+    }
+    $frame 44 {
+     #q -0.00119926 -0.29313892 0.05208274 0.95464945
+    }
+    $frame 45 {
+     #q -0.00088658 -0.21671017 0.03850349 0.97547609
+    }
+    $frame 46 {
+     #q -0.00061804 -0.15106842 0.02684074 0.98815864
+    }
+    $frame 47 {
+     #q -0.00039729 -0.09711076 0.01725394 0.99512392
+    }
+    $frame 48 {
+     #q -0.00022515 -0.05503471 0.00977821 0.99843663
+    }
+    $frame 49 {
+     #q -0.00010133 -0.02476879 0.00440078 0.99968356
+    }
+    $frame 50 {
+     #q -0.00002583 -0.00631256 0.0011216 0.9999795
+    }
+    $frame 51 55 {
+     #q 0 0.00000017 0 1
+    }
+   }
+  }
+ }
+ $events {
+  #event 31 "Event_Vehicle_ClosingDoor_02" "AnimSrcEventGeneric \"{64D8D014B8DE58DF}\" {
+ Name \"Event_Vehicle_ClosingDoor_02\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"\"
+ UserInt -1
+}" 0 22 "" 0
+  #event 32 "Sound" "AnimSrcEventGeneric \"{64D8D014B8DE588A}\" {
+ Name \"Sound\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"SOUND_VEHICLE_DOOR_CLOSE_START.v_back_door_handle_L\"
+ UserInt -1
+}" 0 0 "" 0
+  #event 44 "Event_Vehicle_CanFinishAction" "AnimSrcEventGeneric \"{64D8D014B8DE5868}\" {
+ Name \"Event_Vehicle_CanFinishAction\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"\"
+ UserInt 2
+}" 0 0 "" 0
+  #event 53 "Sound" "AnimSrcEventGeneric \"{64D8D014B8DE585F}\" {
+ Name \"Sound\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"SOUND_VEHICLE_BACKDOOR_CLOSE_FINISH.v_back_door_handle_L\"
+ UserInt -1
+}" 0 0 "" 0
+ }
+}

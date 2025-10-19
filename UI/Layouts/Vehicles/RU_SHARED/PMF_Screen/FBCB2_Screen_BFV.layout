@@ -1,0 +1,769 @@
+FrameWidgetClass "{630F5367F39A448F}" : "{DAD809C2903F6BF2}UI/Layouts/Vehicles/RU_SHARED/PMF_Screen/FBCB2_Screen.layout" {
+ {
+  FrameWidgetClass "{604F067A41A69CB2}" {
+   Prefab "{604F067A41A69CB2}"
+   {
+    RTTextureWidgetClass "{604EFD6468A29D4F}" {
+     Prefab "{604EFD6468A29D4F}"
+     {
+      OverlayWidgetClass "{630F5367F39A448B}" {
+       Name "DamageMenu"
+       Slot FrameWidgetSlot "{604F61884679C0B4}" {
+        PositionX 139
+        OffsetLeft 139
+        PositionY 0
+        OffsetTop 0
+        SizeX 744
+        OffsetRight -883
+        SizeY 881
+        OffsetBottom -881
+       }
+       "Z Order" 1
+       "Is Visible" 0
+       components {
+        RHS_TouchScreenMenuPMFDamageHandler "{60694CE89E88957D}" {
+        }
+       }
+       {
+        ImageWidgetClass "{630F5367F39A4489}" {
+         Name "Background"
+         Slot OverlayWidgetSlot "{60694CEA807365BE}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         Texture "{71B810E8A3FAF1CA}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/backGround.edds"
+         Size 751 883
+        }
+        FrameWidgetClass "{630F5367F39A4497}" {
+         Name "DamageView"
+         Slot OverlayWidgetSlot "{60694CEA4086C8CB}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         components {
+          RHS_TouchScreenDamageViewHandler "{60694CF19C360081}" {
+           m_sHitZoneName "Engine_01"
+           m_sHitZoneWidgetName "DamageEngine"
+          }
+          RHS_TouchScreenDamageViewHandler "{60697CD8D59699A5}" {
+           m_sHitZoneName "Gearbox_01"
+           m_sHitZoneWidgetName "DamageDriverShaft"
+          }
+          RHS_TouchScreenDamageViewHandler "{60697CD8E166B81B}" {
+           m_sHitZoneName "FuelTank_01"
+          }
+          RHS_TouchScreenDamageViewHandler "{60697CD8F90AF858}" {
+           m_sHitZoneName "FuelTank_02"
+          }
+          RHS_TouchScreenDamageViewHandler "{60697CD880386830}" {
+           m_sHitZoneName "Battery_01"
+          }
+          RHS_TouchScreenDamageViewHandler "{60697CD8855326FE}" {
+           m_sHitZoneName "Battery_02"
+          }
+          RHS_TouchScreenDamageViewHandler "{60697CD88D020FB0}" {
+           m_sHitZoneName "Brains"
+          }
+          RHS_TouchScreenDamageViewIconHandler "{60697CDA9295A0F4}" {
+           m_aHitZoneNames {
+            "Gearbox_01"
+           }
+           m_sHitZoneIconWidgetName "DamageTransmission"
+          }
+          RHS_TouchScreenDamageViewIconHandler "{60697CDAA2DDEE90}" {
+           m_aHitZoneNames {
+            "Brains"
+           }
+           m_sHitZoneIconWidgetName "DamageBrain"
+          }
+          RHS_TouchScreenDamageViewIconHandler "{60697CDAAB241BDA}" {
+           m_aHitZoneNames {
+            "Battery_01" "Battery_02"
+           }
+           m_sHitZoneIconWidgetName "DamageBattery"
+          }
+          RHS_TouchScreenDamageViewIconHandler "{60697CDABBC01E4F}" {
+           m_aHitZoneNames {
+            "FuelTank_01" "FuelTank_02"
+           }
+           m_sHitZoneIconWidgetName "DamageTank"
+          }
+          RHS_TouchScreenDamageViewIconHandler "{60697CDA4F95E7A9}" {
+           m_aHitZoneNames {
+            "DamageEngine"
+           }
+           m_sHitZoneIconWidgetName "Engine_01"
+          }
+          RHS_TouchScreenDamageViewHandler "{60697CDCFA67B467}" {
+           m_sHitZoneName "Wheel"
+           m_sHitZoneWidgetName "DamageWheel1L"
+           m_sHitZoneSlotName "Wheel_L01"
+          }
+          RHS_TouchScreenDamageViewHandler "{60697CDCAD33691B}" {
+           m_sHitZoneName "Wheel"
+           m_sHitZoneWidgetName "DamageWheel2L"
+           m_sHitZoneSlotName "Wheel_L02"
+          }
+          RHS_TouchScreenDamageViewHandler "{60697CDCBA8B3DAC}" {
+           m_sHitZoneName "Wheel"
+           m_sHitZoneWidgetName "DamageWheel3L"
+           m_sHitZoneSlotName "Wheel_L03"
+          }
+          RHS_TouchScreenDamageViewHandler "{60697CDC47589336}" {
+           m_sHitZoneName "Wheel"
+           m_sHitZoneWidgetName "DamageWheel4L"
+           m_sHitZoneSlotName "Wheel_L04"
+          }
+          RHS_TouchScreenDamageViewHandler "{60697CDC5C3AE2C4}" {
+           m_sHitZoneName "Wheel"
+           m_sHitZoneWidgetName "DamageWheel1R"
+           m_sHitZoneSlotName "Wheel_R01"
+          }
+          RHS_TouchScreenDamageViewHandler "{60697CDC6EFBC17A}" {
+           m_sHitZoneName "Wheel"
+           m_sHitZoneWidgetName "DamageWheel2R"
+           m_sHitZoneSlotName "Wheel_R02"
+          }
+          RHS_TouchScreenDamageViewHandler "{60697CDC7EA3BFEF}" {
+           m_sHitZoneName "Wheel"
+           m_sHitZoneWidgetName "DamageWheel3R"
+           m_sHitZoneSlotName "Wheel_R03"
+          }
+          RHS_TouchScreenDamageViewHandler "{60697CDC0A12B264}" {
+           m_sHitZoneName "Wheel"
+           m_sHitZoneWidgetName "DamageWheel4R"
+           m_sHitZoneSlotName "Wheel_R04"
+          }
+          RHS_TouchScreenDamageViewIconHandler "{60697CDD14000EEB}" {
+           m_aHitZoneNames {
+            "Wheel" "Wheel" "Wheel" "Wheel" "Wheel" "Wheel" "Wheel" "Wheel"
+           }
+           m_aHitZoneSlotNames {
+            "Wheel_L01" "Wheel_L02" "Wheel_L03" "Wheel_L04" "Wheel_R01" "Wheel_R02" "Wheel_R03" "Wheel_R04"
+           }
+           m_sHitZoneIconWidgetName "DamageWheels"
+          }
+         }
+         {
+          VerticalLayoutWidgetClass "{630F5367F39A4496}" {
+           Name "StateIcons"
+           Slot FrameWidgetSlot "{60694CF6AE64657F}" {
+            PositionX 1
+            OffsetLeft 1
+            PositionY 444
+            OffsetTop 444
+            SizeX 253
+            OffsetRight -254
+            SizeY 426
+            OffsetBottom -870
+           }
+           {
+            OverlayWidgetClass "{630F5367F39A4495}" {
+             Name "DamageBrain"
+             Slot LayoutSlot "{60694CF64E74ACCF}" {
+              Padding 0 15 0 0
+             }
+             {
+              ImageWidgetClass "{630F5367F39A4493}" {
+               Name "Icon"
+               Slot OverlayWidgetSlot "{60694CF6560CDFDD}" {
+               }
+               Texture "{E8054EA0853360A6}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageIconBrain.edds"
+               Size 216 45
+              }
+              ImageWidgetClass "{630F5367F39A4492}" {
+               Name "Selector"
+               Slot OverlayWidgetSlot "{60694CF6560CDFDD}" {
+               }
+               Color 1 1 1 0
+               Texture "{F9068612467404EB}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageSelector.edds"
+               Size 216 44
+              }
+             }
+            }
+            OverlayWidgetClass "{630F5367F39A4491}" {
+             Name "DamageBattery"
+             Slot LayoutSlot "{60694CF64E74ACCF}" {
+              Padding 0 5 0 0
+             }
+             {
+              ImageWidgetClass "{630F5367F39A4490}" {
+               Name "Icon"
+               Slot OverlayWidgetSlot "{60694CF6560CDFDD}" {
+               }
+               Texture "{9FC58268FAD2B155}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageIconBattery.edds"
+               Size 216 45
+              }
+              ImageWidgetClass "{630F5367F39A449F}" {
+               Name "Selector"
+               Slot OverlayWidgetSlot "{60694CF6560CDFDD}" {
+               }
+               Color 1 1 1 0
+               Texture "{F9068612467404EB}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageSelector.edds"
+               Size 216 44
+              }
+             }
+            }
+            OverlayWidgetClass "{630F5367F39A449E}" {
+             Name "DamageDriverShaft"
+             Slot LayoutSlot "{60694CF64E74ACCF}" {
+              Padding 0 5 0 0
+             }
+             {
+              ImageWidgetClass "{630F5367F39A449D}" {
+               Name "Icon"
+               Slot OverlayWidgetSlot "{60694CF6560CDFDD}" {
+               }
+               Texture "{9ACEEE735143D588}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageIconDriverShaft.edds"
+               Size 216 45
+              }
+              ImageWidgetClass "{630F5367F39A449C}" {
+               Name "Selector"
+               Slot OverlayWidgetSlot "{60694CF6560CDFDD}" {
+               }
+               Color 1 1 1 0
+               Texture "{F9068612467404EB}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageSelector.edds"
+               Size 216 44
+              }
+             }
+            }
+            OverlayWidgetClass "{630F5367F39A449B}" {
+             Name "DamageEngine"
+             Slot LayoutSlot "{60694CF64E74ACCF}" {
+              Padding 0 5 0 0
+             }
+             {
+              ImageWidgetClass "{630F5367F39A449A}" {
+               Name "Icon"
+               Slot OverlayWidgetSlot "{60694CF6560CDFDD}" {
+               }
+               Texture "{AF2E99EF2510B3D2}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageIconEngine.edds"
+               Size 216 45
+              }
+              ImageWidgetClass "{630F5367F39A4499}" {
+               Name "Selector"
+               Slot OverlayWidgetSlot "{60694CF6560CDFDD}" {
+               }
+               Color 1 1 1 0
+               Texture "{F9068612467404EB}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageSelector.edds"
+               Size 216 44
+              }
+             }
+            }
+            OverlayWidgetClass "{630F5367F39A4498}" {
+             Name "DamageTank"
+             Slot LayoutSlot "{60694CF64E74ACCF}" {
+              Padding 0 5 0 0
+             }
+             {
+              ImageWidgetClass "{630F5367F39A44A7}" {
+               Name "Icon"
+               Slot OverlayWidgetSlot "{60694CF6560CDFDD}" {
+               }
+               Texture "{151D58936F2CF874}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageIconTank.edds"
+               Size 216 45
+              }
+              ImageWidgetClass "{630F5367F39A44A6}" {
+               Name "Selector"
+               Slot OverlayWidgetSlot "{60694CF6560CDFDD}" {
+               }
+               Color 1 1 1 0
+               Texture "{F9068612467404EB}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageSelector.edds"
+               Size 216 44
+              }
+             }
+            }
+            OverlayWidgetClass "{630F5367F39A44A5}" {
+             Name "DamageTurret"
+             Slot LayoutSlot "{60694CF64E74ACCF}" {
+              Padding 0 5 0 0
+             }
+             {
+              ImageWidgetClass "{630F5367F39A44A4}" {
+               Name "Icon"
+               Slot OverlayWidgetSlot "{60694CF6560CDFDD}" {
+               }
+               Texture "{9A98BDCD21C55E49}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageIconTurret.edds"
+               Size 216 45
+              }
+              ImageWidgetClass "{630F5367F39A44A3}" {
+               Name "Selector"
+               Slot OverlayWidgetSlot "{60694CF6560CDFDD}" {
+               }
+               Color 1 1 1 0
+               Texture "{F9068612467404EB}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageSelector.edds"
+               Size 216 44
+              }
+             }
+            }
+            OverlayWidgetClass "{630F5367F39A44A2}" {
+             Name "DamageWheels"
+             Slot LayoutSlot "{60694CF64E74ACCF}" {
+              Padding 0 5 0 0
+             }
+             {
+              ImageWidgetClass "{630F5367F39A44A1}" {
+               Name "Icon"
+               Slot OverlayWidgetSlot "{60694CF6560CDFDD}" {
+               }
+               Texture "{A8E9FA49935EF77E}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageIconWheels.edds"
+               Size 216 45
+              }
+              ImageWidgetClass "{630F5367F39A44A0}" {
+               Name "Selector"
+               Slot OverlayWidgetSlot "{60694CF6560CDFDD}" {
+               }
+               Color 1 1 1 0
+               Texture "{F9068612467404EB}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageSelector.edds"
+               Size 216 44
+              }
+             }
+            }
+            OverlayWidgetClass "{630F5367F39A44AF}" {
+             Name "DamageTransmission"
+             Slot LayoutSlot "{60694CF64E74ACCF}" {
+              Padding 0 5 0 0
+             }
+             {
+              ImageWidgetClass "{630F5367F39A44AE}" {
+               Name "Icon"
+               Slot OverlayWidgetSlot "{60694CF6560CDFDD}" {
+               }
+               Texture "{9115C10E4C625B62}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageOconTransmission.edds"
+               Size 216 45
+              }
+              ImageWidgetClass "{630F5367F39A44AD}" {
+               Name "Selector"
+               Slot OverlayWidgetSlot "{60694CF6560CDFDD}" {
+               }
+               Color 1 1 1 0
+               Texture "{F9068612467404EB}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageSelector.edds"
+               Size 216 44
+              }
+             }
+            }
+           }
+          }
+          ImageWidgetClass "{630F5367F39A44AC}" {
+           Name "DamageDriverShaft"
+           Slot FrameWidgetSlot "{60694CEA245992BD}" {
+            PositionX 475
+            OffsetLeft 475
+            PositionY 225
+            OffsetTop 225
+            SizeX 100
+            OffsetRight -575
+            SizeY 30
+            OffsetBottom -255
+            SizeToContent 1
+           }
+           Texture "{40FDA4EAA7E3547D}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageDriveShaft.edds"
+           Size 54 408
+          }
+          ImageWidgetClass "{630F5367F39A44AB}" {
+           Name "DamageHull"
+           Slot FrameWidgetSlot "{60694CEA245992BD}" {
+            PositionX 395
+            OffsetLeft 395
+            PositionY 121
+            OffsetTop 121
+            SizeX 100
+            OffsetRight -495
+            SizeY 30
+            OffsetBottom -151
+            SizeToContent 1
+           }
+           Texture "{D57EE3BC1E240B21}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageHull.edds"
+           Size 214 608
+          }
+          ImageWidgetClass "{630F5367F39A44AA}" {
+           Name "DamageTurret"
+           Slot FrameWidgetSlot "{60694CEA245992BD}" {
+            PositionX 422
+            OffsetLeft 422
+            PositionY 228
+            OffsetTop 228
+            SizeX 100
+            OffsetRight -522
+            SizeY 30
+            OffsetBottom -258
+            SizeToContent 1
+           }
+           Texture "{2C4817F0D93A9B6A}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageTurret.edds"
+           Size 161 361
+          }
+          ImageWidgetClass "{630F5367F39A44A9}" {
+           Name "DamageBrain"
+           Slot FrameWidgetSlot "{60694CEA245992BD}" {
+            PositionX 437
+            OffsetLeft 437
+            PositionY 466
+            OffsetTop 466
+            SizeX 100
+            OffsetRight -537
+            SizeY 30
+            OffsetBottom -496
+            SizeToContent 1
+           }
+           Texture "{5CA610003D09CD75}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageBrain.edds"
+           Size 126 31
+          }
+          ImageWidgetClass "{630F5367F39A44A8}" {
+           Name "DamageEngine"
+           Slot FrameWidgetSlot "{60694CEA245992BD}" {
+            PositionX 498
+            OffsetLeft 498
+            PositionY 220
+            OffsetTop 220
+            SizeX 100
+            OffsetRight -598
+            SizeY 30
+            OffsetBottom -250
+            SizeToContent 1
+           }
+           Texture "{19FE33D2DDEF76F1}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageEngine.edds"
+           Size 84 179
+          }
+          ImageWidgetClass "{630F5367F39A44B7}" {
+           Name "DamageWheel1L"
+           Slot FrameWidgetSlot "{60694CEA245992BD}" {
+            PositionX 389
+            OffsetLeft 389
+            PositionY 213
+            OffsetTop 213
+            SizeX 100
+            OffsetRight -489
+            SizeY 30
+            OffsetBottom -243
+            SizeToContent 1
+           }
+           Texture "{615E6D6E7590CEC0}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageWheel.edds"
+           Size 37 101
+          }
+          ImageWidgetClass "{630F5367F39A44B6}" {
+           Name "DamageWheel2L"
+           Slot FrameWidgetSlot "{60694CEA245992BD}" {
+            PositionX 389
+            OffsetLeft 389
+            PositionY 320
+            OffsetTop 320
+            SizeX 100
+            OffsetRight -489
+            SizeY 30
+            OffsetBottom -350
+            SizeToContent 1
+           }
+           Texture "{615E6D6E7590CEC0}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageWheel.edds"
+           Size 37 101
+          }
+          ImageWidgetClass "{630F5367F39A44B5}" {
+           Name "DamageWheel3L"
+           Slot FrameWidgetSlot "{60694CEA245992BD}" {
+            PositionX 389
+            OffsetLeft 389
+            PositionY 456
+            OffsetTop 456
+            SizeX 100
+            OffsetRight -489
+            SizeY 30
+            OffsetBottom -486
+            SizeToContent 1
+           }
+           Texture "{615E6D6E7590CEC0}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageWheel.edds"
+           Size 37 101
+          }
+          ImageWidgetClass "{630F5367F39A44B4}" {
+           Name "DamageWheel4L"
+           Slot FrameWidgetSlot "{60694CEA245992BD}" {
+            PositionX 390
+            OffsetLeft 390
+            PositionY 562
+            OffsetTop 562
+            SizeX 100
+            OffsetRight -490
+            SizeY 30
+            OffsetBottom -592
+            SizeToContent 1
+           }
+           Texture "{615E6D6E7590CEC0}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageWheel.edds"
+           Size 37 101
+          }
+          ImageWidgetClass "{630F5367F39A44B3}" {
+           Name "DamageWheel1R"
+           Slot FrameWidgetSlot "{60694CEA245992BD}" {
+            PositionX 576
+            OffsetLeft 576
+            PositionY 213
+            OffsetTop 213
+            SizeX 100
+            OffsetRight -676
+            SizeY 30
+            OffsetBottom -243
+            SizeToContent 1
+           }
+           Texture "{615E6D6E7590CEC0}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageWheel.edds"
+           Size 37 101
+          }
+          ImageWidgetClass "{630F5367F39A44B2}" {
+           Name "DamageWheel2R"
+           Slot FrameWidgetSlot "{60694CEA245992BD}" {
+            PositionX 577
+            OffsetLeft 577
+            PositionY 320
+            OffsetTop 320
+            SizeX 100
+            OffsetRight -677
+            SizeY 30
+            OffsetBottom -350
+            SizeToContent 1
+           }
+           Texture "{615E6D6E7590CEC0}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageWheel.edds"
+           Size 37 101
+          }
+          ImageWidgetClass "{630F5367F39A44B1}" {
+           Name "DamageWheel3R"
+           Slot FrameWidgetSlot "{60694CEA245992BD}" {
+            PositionX 577
+            OffsetLeft 577
+            PositionY 457
+            OffsetTop 457
+            SizeX 100
+            OffsetRight -677
+            SizeY 30
+            OffsetBottom -487
+            SizeToContent 1
+           }
+           Texture "{615E6D6E7590CEC0}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageWheel.edds"
+           Size 37 101
+          }
+          ImageWidgetClass "{630F5367F39A44B0}" {
+           Name "DamageWheel4R"
+           Slot FrameWidgetSlot "{60694CEA245992BD}" {
+            PositionX 577
+            OffsetLeft 577
+            PositionY 562
+            OffsetTop 562
+            SizeX 100
+            OffsetRight -677
+            SizeY 30
+            OffsetBottom -592
+            SizeToContent 1
+           }
+           Texture "{615E6D6E7590CEC0}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DamageState/DamageWheel.edds"
+           Size 37 101
+          }
+         }
+        }
+        FrameWidgetClass "{630F5367F39A44BF}" {
+         Name "Fuel"
+         Slot OverlayWidgetSlot "{60ED73D8238948E7}" {
+          HorizontalAlign 0
+          VerticalAlign 0
+         }
+         {
+          FrameWidgetClass "{630F5367F39A44BE}" {
+           Name "FuelFrame"
+           Slot FrameWidgetSlot "{60ED73D8310A04B8}" {
+            PositionX 2
+            OffsetLeft 2
+            PositionY 11
+            OffsetTop 11
+            SizeX 251
+            OffsetRight -253
+            SizeY 427
+            OffsetBottom -438
+           }
+           {
+            ImageWidgetClass "{630F5367F39A44BD}" {
+             Name "Background"
+             Slot FrameWidgetSlot "{60ED73D9C060CC09}" {
+              Anchor 0 0 1 1
+              PositionX 0
+              OffsetLeft 0
+              PositionY 0
+              OffsetTop 0
+              SizeX 1
+              OffsetRight 0
+              SizeY -2
+              OffsetBottom 0
+             }
+             Texture "{866E94D6D40EEA46}UI/layouts/Vehicles/RU_SHARED/images/pmf5/FuelLevel.edds"
+             Size 256 427
+            }
+            ImageWidgetClass "{630F5367F39A44BC}" {
+             Name "FuelLevel5"
+             Slot FrameWidgetSlot "{60ED73D93C4361E8}" {
+              PositionX 23
+              OffsetLeft 23
+              PositionY 24
+              OffsetTop 24
+              SizeX 60
+              OffsetRight -83
+              SizeY 21
+              OffsetBottom -45
+             }
+             Color 0.251 0.502 0 1
+             Size 15 20
+            }
+            ImageWidgetClass "{630F5367F39A44BB}" {
+             Name "FuelLevel4"
+             Slot FrameWidgetSlot "{60ED73D93C4361E8}" {
+              PositionX 23
+              OffsetLeft 23
+              PositionY 56
+              OffsetTop 56
+              SizeX 60
+              OffsetRight -83
+              SizeY 21
+              OffsetBottom -77
+             }
+             Color 0.251 0.502 0 1
+             Size 15 20
+            }
+            ImageWidgetClass "{630F5367F39A44BA}" {
+             Name "FuelLevel3"
+             Slot FrameWidgetSlot "{60ED73D93C4361E8}" {
+              PositionX 23
+              OffsetLeft 23
+              PositionY 88
+              OffsetTop 88
+              SizeX 60
+              OffsetRight -83
+              SizeY 21
+              OffsetBottom -109
+             }
+             Color 0.251 0.502 0 1
+             Size 15 20
+            }
+            ImageWidgetClass "{630F5367F39A44B9}" {
+             Name "FuelLevel2"
+             Slot FrameWidgetSlot "{60ED73D93C4361E8}" {
+              PositionX 23
+              OffsetLeft 23
+              PositionY 120
+              OffsetTop 120
+              SizeX 60
+              OffsetRight -83
+              SizeY 21
+              OffsetBottom -141
+             }
+             Color 0.799 0.56 0.029 1
+             Size 15 20
+            }
+            ImageWidgetClass "{630F5367F39A44B8}" {
+             Name "FuelLevel1"
+             Slot FrameWidgetSlot "{60ED73D93C4361E8}" {
+              PositionX 23
+              OffsetLeft 23
+              PositionY 152
+              OffsetTop 152
+              SizeX 60
+              OffsetRight -83
+              SizeY 21
+              OffsetBottom -173
+             }
+             Color 0.799 0.56 0.029 1
+             Size 15 20
+            }
+            ImageWidgetClass "{630F5367F39A4447}" {
+             Name "FuelLevel0"
+             Slot FrameWidgetSlot "{60ED73D93C4361E8}" {
+              PositionX 23
+              OffsetLeft 23
+              PositionY 184
+              OffsetTop 184
+              SizeX 60
+              OffsetRight -83
+              SizeY 21
+              OffsetBottom -205
+             }
+             Color 0.502 0 0 1
+             Size 15 20
+            }
+            TextWidgetClass "{630F5367F39A4446}" {
+             Name "FuelCounter"
+             Slot FrameWidgetSlot "{60ED73D9F95D6ADE}" {
+              PositionX 115
+              OffsetLeft 115
+              PositionY 129
+              OffsetTop 129
+              SizeX 109
+              OffsetRight -224
+              SizeY 32
+              OffsetBottom -161
+             }
+             Text "10000 Л."
+             "Horizontal Alignment" Center
+             "Vertical Alignment" Center
+            }
+            TextWidgetClass "{630F5367F39A4445}" {
+             Name "ThermalCounter"
+             Slot FrameWidgetSlot "{60ED73D9F95D6ADE}" {
+              PositionX 21
+              OffsetLeft 21
+              PositionY 249
+              OffsetTop 249
+              SizeX 214
+              OffsetRight -235
+              SizeY 105
+              OffsetBottom -354
+             }
+             Text "МАСЛО t° (КПП) : -10"\
+             "МАСЛО t° (ДВИГ) : 12.7"\
+             "ОХЛ.ЖИД. t° : 0.002"
+             "Line Spacing" 40
+            }
+            TextWidgetClass "{630F5367F39A4444}" {
+             Name "FuelDate"
+             Slot FrameWidgetSlot "{60ED73D9F95D6ADE}" {
+              PositionX 22
+              OffsetLeft 22
+              PositionY 382
+              OffsetTop 382
+              SizeX 191
+              OffsetRight -213
+              SizeY 26
+              OffsetBottom -408
+             }
+             Text "ДАТА:"
+             "Line Spacing" 40
+            }
+            ImageWidgetClass "{630F5367F39A4443}" {
+             Name "Leak"
+             Slot FrameWidgetSlot "{60ED73D96D07D759}" {
+              PositionX 110
+              OffsetLeft 110
+              PositionY 171
+              OffsetTop 171
+              SizeX 118
+              OffsetRight -228
+              SizeY 40
+              OffsetBottom -211
+             }
+             Texture "{0ED3A01A8D889016}UI/layouts/Vehicles/RU_SHARED/images/pmf5/Leak.edds"
+             Size 118 40
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      ImageWidgetClass "{605163FFCD27E845}" {
+       Prefab "{605163FFCD27E845}"
+       "Z Order" 99
+      }
+      OverlayWidgetClass "{60633128A8928E9A}" {
+       Prefab "{60633128A8928E9A}"
+       "Z Order" 1000
+      }
+      ImageWidgetClass "{604F44AFA79E0C39}" {
+       Prefab "{604F44AFA79E0C39}"
+       "Z Order" 100
+      }
+     }
+    }
+   }
+  }
+ }
+}

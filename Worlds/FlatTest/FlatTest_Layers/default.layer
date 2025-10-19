@@ -1,0 +1,15 @@
+Vehicle BTR70_Base1 : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
+ coords 1376.364 39 2187.803
+}
+Turret : "{4462D57DD5C424C3}Prefabs/Vehicles/Tracked/BFV/VehParts/Turret/BFV_Turret_BASE.et" {
+ coords 1387.401 39 2188.956
+}
+Vehicle M923A1_ammo1 : "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et" {
+ coords 1396.421 39 2189.629
+}
+Tank M2A2_BASE2 : "{ABCC1FF0D6096E47}Prefabs/Vehicles/Tracked/BFV/M2A2_BASE.et" {
+ coords 1391.586 39 2189.174
+}
+Turret : "{DF5979FDE2682F70}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/LAV25_turret_base.et" {
+ coords 1383.839 39 2189.786
+}

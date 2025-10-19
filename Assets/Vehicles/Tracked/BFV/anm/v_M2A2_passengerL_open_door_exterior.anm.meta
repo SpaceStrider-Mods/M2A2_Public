@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8ED9119B83A20C22}Assets/Vehicles/Tracked/BFV/anm/v_M2A2_passengerL_open_door_exterior.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

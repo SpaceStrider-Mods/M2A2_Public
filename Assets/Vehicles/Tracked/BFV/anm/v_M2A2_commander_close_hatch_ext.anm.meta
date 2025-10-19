@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9425E098D192983A}Assets/Vehicles/Tracked/BFV/anm/v_M2A2_commander_close_hatch_ext.anm"
+ Configurations {
+  TXAResourceClass PC {
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass PS5 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

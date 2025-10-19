@@ -1,0 +1,10 @@
+MatPBRBasic {
+ Color 0.164 0.266 0.143 1
+ RoughnessScale 0.999
+ AOScale 0.705
+ DielectricReflectance 0.045
+ CavityFromAO 0.16
+ BCRMap "{07CBA6AB99E68F3D}Assets/_SharedData/Plastic/ST_TarpaulinCanvas_BCR.edds"
+ NormalPower 0.744
+ NMOMap "{3F131D394091DDA3}Assets/_SharedData/Plastic/ST_TarpaulinCanvas_NMO.edds"
+}

@@ -1,0 +1,9 @@
+MatDeferredDecals {
+ Texture "{982799FA560F06A2}Assets/Vehicles/Tracked/BFV/data/Textures/M2A2Shadow.edds"
+ Intensity 0.9
+ FadeProjection 0.5
+ FadeProjectionOpposite 0.5
+ FadeAngleDir 0 1 0
+ FadeAngleStart 20
+ FadeAngleEnd 90
+}

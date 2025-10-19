@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6594065C0DE2B973}Prefabs/Vehicles/Tracked/BFV/VehParts/Turret/M2A3_Turret_Desert.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

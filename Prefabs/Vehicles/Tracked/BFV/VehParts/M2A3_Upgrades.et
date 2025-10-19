@@ -1,0 +1,29 @@
+GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{6FD8A168FFDC8AE1}Assets/Vehicles/Tracked/BFV/M2A3_Upgrade.xob"
+  }
+  ProcAnimComponent "{64D6B02F97868C7A}" {
+   Parameters {
+    ProcAnimParams "{64D6B02F96C684C7}" {
+     ResourceName "{08016EECC52E9493}anims/proc/M2A3_ExhaustFans.pap"
+     BoneNames {
+      "v_upgrade_fan_L01" "v_upgrade_fan_L02" "v_upgrade_fan_R01" "v_upgrade_fan_R02"
+     }
+    }
+   }
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone ExhaustFans : "{000477F2B739E64E}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_HZ_vehpart.conf" {
+    }
+   }
+  }
+  BaseItemAnimationComponent "{64D6B02E1BB21D8D}" {
+   Enabled 0
+  }
+  SignalsManagerComponent "{64D6B5CFF8765770}" {
+  }
+ }
+}

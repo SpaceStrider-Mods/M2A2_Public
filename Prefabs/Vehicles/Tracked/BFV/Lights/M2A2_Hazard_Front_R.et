@@ -1,0 +1,9 @@
+GameEntity : "{A50B7F75B249F351}Prefabs/Vehicles/Core/Lights/VehicleEmissiveSurface_Base.et" {
+ ID "54DEF484EE00449D"
+ components {
+  MeshObject "{54DEF48745980A1F}" {
+   Object "{58A7072F67BE04AA}Assets/Vehicles/Tracked/BFV/Lights/M2A2_Indicator_FR.xob"
+  }
+ }
+ coords -8.043 0.997 -6.269
+}

@@ -1,0 +1,23 @@
+GenericEntity : "{1D7174C97DF571DC}PrefabsEditable/SupportStationSystems/E_SupportStationSystem_Base.et" {
+ ID "5B2AD5B9801EB74E"
+ components {
+  SCR_ArsenalComponent "{62E49621E34C5C95}" {
+   m_OverwriteArsenalConfig SCR_ArsenalItemListConfig "{62E496210FD844DE}" {
+    m_aArsenalItems {
+     SCR_ArsenalItemStandalone "{6555759F10E80ADD}" {
+      m_eItemType VEHICLE
+      m_eItemMode AMMUNITION
+      m_iSupplyCost 100
+      m_ItemResourceName "{03CD53D0D754F6BE}Prefabs/Weapons/Magazines/Magazine_M242/Box_25x137_M242_70rnd_APDST.et"
+     }
+     SCR_ArsenalItemStandalone "{6555759F13BF159B}" {
+      m_eItemType VEHICLE
+      m_eItemMode AMMUNITION
+      m_iSupplyCost 100
+      m_ItemResourceName "{5AA09CEC155EF41F}Prefabs/Weapons/Magazines/Magazine_M242/Box_25x137_M242_230rnd_HEIT.et"
+     }
+    }
+   }
+  }
+ }
+}

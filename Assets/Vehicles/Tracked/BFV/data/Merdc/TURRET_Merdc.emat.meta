@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{867B2D01CB0C0B53}Assets/Vehicles/Tracked/BFV/data/Merdc/TURRET_Merdc.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

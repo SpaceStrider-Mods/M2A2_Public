@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{2CBA019E46372096}Prefabs/Vehicles/Tracked/BFV/M2A2_Suspension_Front.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
