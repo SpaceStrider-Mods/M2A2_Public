@@ -1,0 +1,24 @@
+Turret : "{FBF38B8D52E75BD0}Prefabs/Vehicles/Tracked/BFV/VehParts/Turret/M2A3_Turret_BUSK_BASE.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{64D93153B610912F}" {
+     SourceMaterial "TURRET"
+     AssignedMaterial "{867B2D01CB0C0B53}Assets/Vehicles/Tracked/BFV/data/Merdc/TURRET_Merdc.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{5E4A2EC25CB7BC2F}" {
+   Slots {
+    RegisteringComponentSlotInfo Commander_CITV {
+     Prefab "{5A931F63DBA8FB06}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/M2A3_Commander_Turret_MERDC.et"
+    }
+    RegisteringComponentSlotInfo BUSK_ARMOR {
+     Prefab "{E358058ACBC37B64}Prefabs/Vehicles/Tracked/BFV/VehParts/ERA/BUSK_Block_Turret_MERDC.et"
+    }
+   }
+  }
+ }
+ coords 103.405 1 1258.302
+}

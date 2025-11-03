@@ -1,0 +1,5 @@
+MatPBRMulti : "{DE9AF30AFD740459}Assets/Vehicles/Tracked/BFV/VehParts/Data/BUSK.emat" {
+ MCRBrightness 0
+ DirtLayerSharpness 5
+ Color_1 0.314 0.243 0.157 1
+}

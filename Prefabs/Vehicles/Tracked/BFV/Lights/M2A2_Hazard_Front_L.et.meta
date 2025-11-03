@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{4371429336DA9A7D}Prefabs/Vehicles/Wheeled/M998/Lights/M2A2_Hazard_Front_L.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

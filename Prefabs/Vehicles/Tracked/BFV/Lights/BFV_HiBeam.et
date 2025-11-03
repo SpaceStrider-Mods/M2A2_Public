@@ -1,0 +1,13 @@
+LightEntity : "{8E0D13E02E4229A2}Prefabs/Vehicles/Core/Lights/VehicleLight_Head_Base.et" {
+ ID "514ED7499ABC27FE"
+ components {
+  Hierarchy "{5E4A049E18FD8942}" {
+  }
+ }
+ LV 10
+ Radius 100
+ SpotAngle 85
+ DistanceAttenuation 0.9
+ VolLightIntensity 0.02
+ LensFlareScale 0.65
+}

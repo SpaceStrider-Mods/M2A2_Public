@@ -1,0 +1,13 @@
+GenericEntity : "{75BB5E5565980BEC}Prefabs/Vehicles/Core/ERA/BUSK_Block_Turret_Main.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{64774809E75B6A71}" {
+     SourceMaterial "BUSK"
+     AssignedMaterial "{FD49E5581B27D3D8}Assets/Vehicles/Tracked/BFV/VehParts/Data/BUSK_MERDC.emat"
+    }
+   }
+  }
+ }
+}

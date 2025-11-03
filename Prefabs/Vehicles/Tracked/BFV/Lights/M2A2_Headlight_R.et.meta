@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{E334772EC9401F31}Prefabs/Vehicles/Wheeled/M998/Lights/M2A2_Headlight_R.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

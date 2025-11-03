@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D15761EF0C13CD2F}Assets/Vehicles/Tracked/BFV/VehParts/Data/BUSK_Desert.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,37 @@
+v1.0.5
+- Fixed broken turret on OD variant
+- Replaced broken ballistics config for TOW II
+
+v1.0.4
+- Added new weapon and ammunition sounds (Ashyl)
+- Added recoil effect
+- Added barrel animation on Bushmaster
+- Fixed driver seating position (was too high)
+- Fixed missing resource config for supply system
+
+v1.0.3
+- Rebuilt base body with updated tank base class from SpaceCore
+- Fixed multiple compartment bugs
+- Changed passenger seating animation
+- Added new damage zones
+- Updated vehicle simulation settings (speed/power)
+- New engine acp setup
+- Added TOW missile launcher and missile
+- Added BGONE and SpaceCore dependencies
+- Added APDS-T ammunition
+- Adjusted HEI-T ammunition penetration and explosive effects
+- Added new base inventory items to loadout
+- Added supply system 
+
+v1.0.2
+- Adjusted front armor plating to 25mm
+- Adjusted engine damage settings
+- Changed Conflict vehicles settings from Large to Medium
+
+v1.0.1
+- Decreased file size
+- Fixed wheels and brakes config
+- Fixed tire simulation
+
+v1.0.0
+- Initial commit

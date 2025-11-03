@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{4E98C6C86460DA68}Prefabs/Vehicles/Tracked/BMP1/VehParts/M2A2_shadow.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

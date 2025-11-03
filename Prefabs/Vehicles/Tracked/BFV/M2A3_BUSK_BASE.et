@@ -1,0 +1,55 @@
+Tank : "{FA1383EA7F2E8750}Prefabs/Vehicles/Tracked/BFV/M2A2_BUSK_BASE.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  BaseLightManagerComponent "{51E210F17D2534F7}" {
+   LightSlots {
+    SCR_LightSlot "{5EE66843CB2BEC15}" {
+     LightPositionInfo EntitySlotInfo "{51E177468DA2D7F8}" {
+      Offset 1.0568 2.3756 -3.6008
+     }
+    }
+    SCR_LightSlot "{5EE66843CC620F25}" {
+     LightPositionInfo EntitySlotInfo "{51E177468DA2D7F8}" {
+      Offset -1.0578 2.3756 -3.6008
+     }
+    }
+   }
+   EmissiveSurfaceSlots {
+    SCR_EmissiveLightSurfaceSlot LBrakeLight {
+     Offset 0.155 0.476 -0.61
+    }
+    SCR_EmissiveLightSurfaceSlot RBreakLight {
+     Offset -0.155 0.476 -0.61
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#BFV-Vehicle_M2A3_BUSK_Name"
+    m_Image "{09CEA05E9D3FD69C}UI/Textures/EditorPreviews/Vehicles/Tracked/BFV/M2A3OD_BUSK.edds"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 4000
+     }
+     SCR_EntityBudgetValue "{631061774EE1DF77}" {
+      m_BudgetType RANK_MAJOR
+      m_Value 6
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{FBF38B8D52E75BD0}Prefabs/Vehicles/Tracked/BFV/VehParts/Turret/M2A3_Turret_BUSK_BASE.et"
+    }
+    RegisteringComponentSlotInfo M2A3_Upgrades {
+     MergePhysics 1
+     Prefab "{B7643B23D950ACE7}Prefabs/Vehicles/Tracked/BFV/VehParts/M2A3_Upgrades.et"
+     RegisterDamage 1
+    }
+   }
+  }
+ }
+ coords -5.528 -4.655 -6.158
+}

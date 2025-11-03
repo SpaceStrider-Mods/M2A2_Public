@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Color 0.048 0.048 0.048 1
+ SpecularMul 0.647
+ RoughnessScale 0.936
+ BCRMap "{6E3195AD6C06CB70}Assets/_SharedData/Metal/ST_Metal_Galv_01_BCR.edds"
+ NMOMap "{8611239BA0581B41}Assets/_SharedData/Metal/ST_Lighthouse_PaintedMetal_Clean_NMO.edds"
+}

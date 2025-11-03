@@ -1,0 +1,48 @@
+MatPBRMulti : "{DE9AF30AFD740459}Assets/Vehicles/Tracked/BFV/VehParts/Data/BUSK.emat" {
+ MaskMap "{C32C63815AEE37A1}Assets/Vehicles/Tracked/BFV/VehParts/Data/BUSK_GLOBAL_MASK_MERDC.edds"
+ Enabled_4 1
+ Color_4 0.02 0.02 0.02 1
+ BCR_4 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_4 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ MaskSharpness_4 1.618
+ MaskOffset_4 0.104
+ Mask_4 "{2563D86FF583B1EF}Assets/_SharedData/DetailMask/ST_Metal_Rust_01_Mask1.edds"
+ UVTransform_4 MatUVTransform "{64773BC792674FCD}" {
+  TilingU 8
+  TilingV 8
+ }
+ Roughness_4 2
+ Enabled_3 1
+ Color_3 0.109 0.096 0.084 1
+ BCR_3 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_3 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ MaskSharpness_3 1.813
+ MaskOffset_3 0.118
+ Mask_3 "{2563D86FF583B1EF}Assets/_SharedData/DetailMask/ST_Metal_Rust_01_Mask1.edds"
+ UVTransform_3 MatUVTransform "{64773BC79035D862}" {
+  TilingU 8
+  TilingV 8
+ }
+ Roughness_3 2
+ Metalness_3 0.5
+ Enabled_2 1
+ Color_2 0.036 0.044 0.032 1
+ BCR_2 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_2 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ MaskSharpness_2 3.662
+ MaskOffset_2 0.132
+ Mask_2 "{2563D86FF583B1EF}Assets/_SharedData/DetailMask/ST_Metal_Rust_01_Mask1.edds"
+ UVTransform_2 MatUVTransform "{64773BC79776D4F2}" {
+  TilingU 8
+  TilingV 8
+ }
+ Roughness_2 2.447
+ Metalness_2 0
+ Color_1 0.076 0.059 0.044 1
+ NMO_1 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ UVTransform_1 MatUVTransform "{64773BC31CA43D34}" {
+  TilingU 8
+  TilingV 8
+ }
+ Roughness_1 2
+}
