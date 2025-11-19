@@ -1,0 +1,13 @@
+Turret : "{583F19F5752BA737}Prefabs/Vehicles/Tracked/BFV/VehParts/Turret/M2A3_Commander_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{64D9358A32A81BD3}" {
+     SourceMaterial "UPGRADES"
+     AssignedMaterial "{7A806C12A6CAEA39}Assets/Vehicles/Tracked/BFV/data/UPGRADES_MERDC.emat"
+    }
+   }
+  }
+ }
+}

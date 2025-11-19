@@ -1,0 +1,92 @@
+$animation "" {
+ #version 2
+ #fps 30
+ #numFrames 61
+ $node "v_hatch_driver" {
+  $keys q s {
+   $frame 0 17 {
+    #q 0.08715564 -0.00000009 -0.00000018 0.99619478
+   }
+   $frame 18 {
+    #q 0.09229881 -0.00000009 -0.00000018 0.99573141
+   }
+   $frame 19 {
+    #q 0.10707048 -0.0000001 -0.00000018 0.99425161
+   }
+   $frame 20 {
+    #q 0.13056412 -0.0000001 -0.00000018 0.99144006
+   }
+   $frame 21 {
+    #q 0.16189867 -0.00000011 -0.00000018 0.98680753
+   }
+   $frame 22 {
+    #q 0.20011884 -0.00000011 -0.00000017 0.97977167
+   }
+   $frame 23 {
+    #q 0.24410963 -0.00000012 -0.00000017 0.96974778
+   }
+   $frame 24 {
+    #q 0.2925452 -0.00000013 -0.00000016 0.95625186
+   }
+   $frame 25 {
+    #q 0.34388641 -0.00000014 -0.00000015 0.93901145
+   }
+   $frame 26 {
+    #q 0.39643678 -0.00000014 -0.00000014 0.91806209
+   }
+   $frame 27 {
+    #q 0.44845188 -0.00000015 -0.00000014 0.89380717
+   }
+   $frame 28 {
+    #q 0.49827844 -0.00000016 -0.00000013 0.86701709
+   }
+   $frame 29 {
+    #q 0.54448706 -0.00000017 -0.00000012 0.83876938
+   }
+   $frame 30 {
+    #q 0.58595932 -0.00000017 -0.00000011 0.81034064
+   }
+   $frame 31 {
+    #q 0.6219148 -0.00000018 -0.0000001 0.78308517
+   }
+   $frame 32 {
+    #q 0.65187186 -0.00000018 -0.00000009 0.75832933
+   }
+   $frame 33 {
+    #q 0.67556214 -0.00000018 -0.00000009 0.73730314
+   }
+   $frame 34 {
+    #q 0.69281739 -0.00000019 -0.00000008 0.72111326
+   }
+   $frame 35 {
+    #q 0.70344609 -0.00000019 -0.00000008 0.71074885
+   }
+   $frame 36 61 {
+    #q 0.70710683 -0.00000019 -0.00000008 0.70710683
+   }
+  }
+ }
+ $events {
+  #event 19 "Sound" "AnimSrcEventGeneric \"{64D8D014553DCB41}\" {
+ Name \"Sound\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"SOUND_VEHICLE_DOOR_CLOSE_START.v_driver_hatch_handle\"
+ UserInt -1
+}" 0 0 "" 0
+  #event 21 "Event_Vehicle_ClosingDoor_00" "AnimSrcEventGeneric \"{64D8D014553DCAFF}\" {
+ Name \"Event_Vehicle_ClosingDoor_00\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"\"
+ UserInt -1
+}" 0 15 "" 0
+  #event 35 "Sound" "AnimSrcEventGeneric \"{64D8D014553DCADB}\" {
+ Name \"Sound\"
+ Comment \"\"
+ MainPathOnly 0
+ UserString \"SOUND_VEHICLE_DOOR_CLOSE_FINISH.v_driver_hatch_handle\"
+ UserInt -1
+}" 0 0 "" 0
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7D93E51B472FCF5B}Assets/Vehicles/Tracked/BFV/data/Desert/BODY_Desert.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+ }
+}

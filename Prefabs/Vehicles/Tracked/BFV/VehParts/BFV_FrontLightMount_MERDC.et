@@ -1,0 +1,13 @@
+GenericEntity : "{3A1B6A619B837ABF}Prefabs/Vehicles/Tracked/BFV/VehParts/BFV_FrontLightMount.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{6477480A1201CB26}" {
+     SourceMaterial "BODY"
+     AssignedMaterial "{8A1B411383C3DDC2}Assets/Vehicles/Tracked/BFV/data/Merdc/BODY_Merdc.emat"
+    }
+   }
+  }
+ }
+}

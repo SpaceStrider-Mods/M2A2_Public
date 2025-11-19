@@ -1,0 +1,9 @@
+MatPBRBasic {
+ Color 0.402 0.402 0.402 1
+ WetnessScale 0
+ RoughnessScale 2
+ CavityFromAO 0
+ BCRMap "{0BAE81FAC2EC2985}Assets/Vehicles/Tracked/BFV/data/Textures/Bradley38_UV_INTERIOR_2_BCR.edds"
+ NormalPower 1.88
+ NMOMap "{8379CB9BF45821C2}Assets/Vehicles/Tracked/BFV/data/Textures/INTERIOR_2_NMO.edds"
+}

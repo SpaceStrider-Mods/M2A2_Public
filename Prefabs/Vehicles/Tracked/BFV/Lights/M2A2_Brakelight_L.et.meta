@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{FCBE71CF5CDC7455}Prefabs/Vehicles/Wheeled/M998/Lights/M2A2_Brakelights.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

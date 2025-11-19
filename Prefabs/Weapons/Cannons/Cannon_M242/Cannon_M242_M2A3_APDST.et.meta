@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E56FFB2F3EF10E7D}Prefabs/Weapons/Cannons/Cannon_M242/Cannon_M242_M2A3_APDST.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

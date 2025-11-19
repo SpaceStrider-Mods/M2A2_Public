@@ -1,0 +1,54 @@
+GenericEntity : "{FA7937B6B7D13933}Prefabs/Weapons/AircraftWeapons/MissilePods/XM65/Pod_XM65.et" {
+ ID "629D11C8BD6AE717"
+ components {
+  MeshObject "{629D11CADAD0C383}" {
+   Object "{315571CCDBA8BEB0}Assets/Weapons/HeavyWeapons/XM65_2x_NoCaps.xob"
+  }
+  WCS_Armament_WeaponComponent "{629D11C992611C79}" {
+   m_sName "#WCS-Weapon_BGM71D_Name"
+   m_DefaultProjectile "{E7B6EE8A99C7F760}Prefabs/Weapons/Ammo/Ammo_Missile_BGM-71_BFV.et"
+  }
+  SlotManagerComponent "{629D11C99AEE634A}" {
+   Slots {
+    WCS_Armament_ProjectileSlotInfo W_0 {
+    }
+    WCS_Armament_ProjectileSlotInfo W_1 {
+    }
+    WCS_Armament_ProjectileSlotInfo W_2 {
+     Enabled 0
+    }
+    WCS_Armament_ProjectileSlotInfo W_3 {
+     Enabled 0
+    }
+   }
+  }
+  ActionsManagerComponent "{629D11CAB6B28AE6}" {
+   ActionContexts {
+    UserActionContext "{629D11D46C8F2AA6}" {
+     Position PointInfo "{6152B772E6638695}" {
+      Offset 0 -0.1403 -0.7161
+      Angles 0 180 0
+     }
+     Omnidirectional 1
+    }
+   }
+   additionalActions {
+    WCS_RearmPodAtRepairStationAction "{629D11D464DEC282}" {
+     "Sort Priority" 2
+     m_bAllowCheckChildrenSupportStation 1
+     m_sProjectileToRearm "{E7B6EE8A99C7F760}Prefabs/Weapons/Ammo/Ammo_Missile_BGM-71_BFV.et"
+    }
+    WCS_Armament_RearmFromVehicleAction "{64F11B255E08F292}" : "{CBDA5C3C1E6E643D}Prefabs/Weapons/Core/Configs/WCS_Armament_RearmFromVehicleAction.conf" {
+     ParentContextList {
+      "rearm_pod"
+     }
+     m_sCompatibleProjectiles {
+      "{E7B6EE8A99C7F760}Prefabs/Weapons/Ammo/Ammo_Missile_BGM-71_BFV.et"
+     }
+    }
+   }
+   AllowCrossHierarchy 1
+  }
+ }
+ coords 75.259 1 1219.348
+}

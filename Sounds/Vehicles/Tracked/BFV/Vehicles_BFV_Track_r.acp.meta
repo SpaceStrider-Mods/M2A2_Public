@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6E2B82A32FBA4756}Sounds/Vehicles/Tracked/BFV/Vehicles_BFV_Track_r.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+  AudioProjectResourceClass PS5 : PC {
+  }
+ }
+}

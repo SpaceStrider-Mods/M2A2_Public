@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{954D2A47A836CE83}Prefabs/Vehicles/Tracked/BFV/M2A2_Suspension_Middle.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

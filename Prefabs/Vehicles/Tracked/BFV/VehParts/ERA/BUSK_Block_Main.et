@@ -1,0 +1,8 @@
+GenericEntity : "{FF2DF5D3BAA1D17F}Prefabs/Vehicles/Tracked/BFV/VehParts/ERA/BUSK_Block_BASE.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{702835AE3CBAC84F}Assets/Vehicles/Tracked/BFV/VehParts/BUSK_Main.xob"
+  }
+ }
+}

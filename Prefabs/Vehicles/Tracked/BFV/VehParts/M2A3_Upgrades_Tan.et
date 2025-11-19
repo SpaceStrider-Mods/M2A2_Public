@@ -1,0 +1,13 @@
+GenericEntity : "{B7643B23D950ACE7}Prefabs/Vehicles/Tracked/BFV/VehParts/M2A3_Upgrades.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{64D9358AA8DF6E98}" {
+     SourceMaterial "UPGRADES"
+     AssignedMaterial "{69503AE5B9B6B850}Assets/Vehicles/Tracked/BFV/data/UPGRADES_TAN.emat"
+    }
+   }
+  }
+ }
+}

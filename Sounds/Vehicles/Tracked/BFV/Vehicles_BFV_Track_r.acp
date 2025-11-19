@@ -1,0 +1,2177 @@
+AudioClass {
+ signals {
+  SignalClass {
+   id 3085
+   name "Signal Surface"
+   tl -856.326 -59.627
+   res "{CCCD8159D3EACCF4}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tires_Surface.sig"
+   inputsport {
+    1 26
+   }
+   outputsport {
+    3 4 30 31 38 39 157 158 242 243
+   }
+   inputvalues {
+    50 2000
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    100 10000
+   }
+  }
+  SignalClass {
+   id 50189
+   name "Signal Skid"
+   tl -856.326 2065.02
+   res "{3B454988AE386F1E}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tires_Skid_8.sig"
+   conns {
+    IOPConnectionClass iopConnection {
+     port 69
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 102413
+         port 8
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 3 4 5 6 33 69 126 127 128 129 177 178 179 180 181 182 183 184
+   }
+   outputsport {
+    39 40 41 42 2 14 15 16 53 54 55 56 111 112 113 114 143 151 152 153 155 156 157 158
+   }
+   inputvalues {
+    0 0 0 0 10 2000 0 0 0 0 0 1 1 1 1 1 1 1 1
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 1 100 10000 1 1 1 1 1 1 1 1 1 1 1 1 1
+   }
+  }
+  SignalClass {
+   id 62477
+   name "Signal Debris"
+   tl -859.103 1273.055
+   res "{9A56EF10AEA2AB96}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tires_Surface_Debris_8.sig"
+   inputsport {
+    176 179 182 188 190 191 193 196 198 200 202 208 209 210 212 214 215 227 240 241 242 243 245 249
+   }
+   outputsport {
+    105 109 110 111
+   }
+   inputvalues {
+    0 2000 0 0 0 0 0 0.343 0 0 0 0 0 0 0 0 0 0.2 0 0 0 0 0 1
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 10000 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+   }
+  }
+  SignalClass {
+   id 63501
+   name "Signal 5"
+   tl 454.5 2236.667
+   res "{F07C266FDCFE110E}Sounds/_SharedData/Signals/SimpleHelpers/Multiply_2_inputs.sig"
+   conns {
+    IOPConnectionClass iopConnection {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 50189
+         port 54
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 107533
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 3
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    0 0
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    1 1
+   }
+  }
+  SignalClass {
+   id 74765
+   name "Signal SpeedFilter"
+   tl 50.366 -681.263
+   res "{3B45DD768A6C4E3D}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tires_Filter.sig"
+   inputsport {
+    1
+   }
+   outputsport {
+    5 6 13
+   }
+   inputvalues {
+    70
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    100
+   }
+  }
+  SignalClass {
+   id 78861
+   name "Signal Interior"
+   tl 45.323 -842.844
+   res "{D4A1555B02A77EDA}Sounds/_SharedData/Signals/Vehicles/Vehicles_Occlusion_OutsideVehicleSource.sig"
+   inputsport {
+    30 32 45 55 57
+   }
+   outputsport {
+    2 40 43 47 50 74
+   }
+   inputvalues {
+    0 1 1 0 0
+   }
+   inputvaluesmin {
+    0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 1 1
+   }
+  }
+  SignalClass {
+   id 86029
+   name "Signal Wetness"
+   tl -347.222 -266.413
+   res "{CA6BC2C7328754CE}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tire_Wet.sig"
+   inputsport {
+    1 6
+   }
+   outputsport {
+    5
+   }
+   inputvalues {
+    0 0
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    1 1
+   }
+  }
+  SignalClass {
+   id 96269
+   name "Signal Flat"
+   tl -858.826 767.111
+   res "{0D389EF84FEC8C95}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tires_Flat_8.sig"
+   inputsport {
+    18 38 39 40 50 88 89 90 91
+   }
+   outputsport {
+    1 17 29 31 32 34 35 37 41 42 43 44 78 79 80 81 82 83 84 85 99
+   }
+   inputvalues {
+    0 0 0 0 0 0 0 0 0
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 1 1 1 1 1 1 1 1
+   }
+  }
+  SignalClass {
+   id 102413
+   name "Signal WaterDepth"
+   tl 35.571 -82.214
+   res "{C65459776EEE1325}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tires_LandWater.sig"
+   inputsport {
+    11
+   }
+   outputsport {
+    8 9
+   }
+   inputvalues {
+    0
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1
+   }
+  }
+  SignalClass {
+   id 104461
+   name "Signal 102"
+   tl -347.222 -81.25
+   res "{8608882D052D57CA}Sounds/_SharedData/Signals/SimpleHelpers/Multiply_2_inputs_3.sig"
+   conns {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 96269
+         port 42
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 50189
+         port 112
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    1 3
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    0 0
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    1 1
+   }
+  }
+  SignalClass {
+   id 107533
+   name "Signal Trigger"
+   tl 497.083 -84.25
+   res "{6A39A5B6E0FF6039}Sounds/_SharedData/Signals/Vehicles/Vehicles_Tires_Trigger.sig"
+   inputsport {
+    1 28
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    10 0
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    100 1
+   }
+  }
+  SignalClass {
+   id 110605
+   name "Signal 108"
+   tl 499 -162
+   res "{D7B7F91D5FD261AF}Sounds/Vehicles/Wheeled/BTR70/Vehicles_BTR70_Wheel_DynamicRange.sig"
+   inputsport {
+    2
+   }
+   outputsport {
+    3
+   }
+   inputvalues {
+    0
+   }
+   inputvaluesmin {
+    0
+   }
+   inputvaluesmax {
+    1
+   }
+  }
+  SignalClass {
+   id 112653
+   name "Signal 2"
+   tl -818.299 1831.22
+   res "{DD74166F2BDB6340}Sounds/_SharedData/Signals/Vehicles/Vehicles_CabinRattle.sig"
+   conns {
+    IOPConnectionClass iopConnection {
+     port 83
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 117772
+         port 1
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    4 16 42 43 53 83
+   }
+   outputsport {
+    54 55 56 57
+   }
+   inputvalues {
+    1 100 1 0 0.9 0.1
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    1 100 1 1 1 1
+   }
+  }
+  SignalClass {
+   id 114701
+   name "Signal 66"
+   tl 761.295 532.763
+   res "{79530FEEF84FABB7}Sounds/_SharedData/Signals/Vehicles/Vehicles_Reverb_OutsideVehicleSource_OBSOLETE.sig"
+   inputsport {
+    20 24 29
+   }
+   outputsport {
+    5 6 42
+   }
+   inputvalues {
+    0 1 1
+   }
+   inputvaluesmin {
+    0 0 0
+   }
+   inputvaluesmax {
+    1 1 1
+   }
+  }
+ }
+ filters {
+  FilterClass : "{197876A3287E9FD5}Sounds/_SharedData/Configs/Filter/Vehicles/Filter_Vehicles_Wheel_Interior_OBSOLETE.conf" {
+   id 75798
+   tl 261.514 -844.844
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 78861
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+   parent "{197876A3287E9FD5}Sounds/_SharedData/Configs/Filter/Vehicles/Filter_Vehicles_Wheel_Interior_OBSOLETE.conf"
+   pi {
+    3
+   }
+  }
+  FilterClass {
+   id 76822
+   name "Filter 92"
+   tl 261.088 -726.08
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 74765
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    3
+   }
+   volume_dB 11
+   DSPObject BiquadDSPTypeClass dsp {
+    biquadType PeakingEQ
+    fc 280
+    Q 0.8
+    gain -12
+   }
+  }
+  FilterClass {
+   id 79894
+   name "Filter 92"
+   tl 261.088 -624.83
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 74765
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    3
+   }
+   volume_dB -3
+   DSPObject BiquadDSPTypeClass dsp {
+    biquadType PeakingEQ
+    fc 5000
+    Q 0.7
+    gain 6
+   }
+  }
+  FilterClass {
+   id 87062
+   name "Filter 85"
+   tl -347.222 -184.449
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 86029
+         port 5
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    3
+   }
+   DSPObject BiquadDSPTypeClass dsp {
+    fc 500
+    Q 1
+   }
+  }
+ }
+ filter_chain {
+  FilterChainClass {
+   id 77847
+   name "FilterChain 1"
+   tl 496.514 -752.844
+   iops {
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 18
+       links {
+        ConnectionClass connection {
+         id 76822
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 18
+       links {
+        ConnectionClass connection {
+         id 75798
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 3
+     conn {
+      ConnectionsClass connections {
+       id 18
+       links {
+        ConnectionClass connection {
+         id 79894
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+   ports 3
+  }
+ }
+ sounds {
+  SoundClass : "{98F3A7FCDD54A440}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Wheel_base.conf" {
+   id 2057
+   name "SOUND_TIRE_ROLL_FRONT_RIGHT_LP"
+   version 2
+   tl 493.705 20.9
+   conns {
+    ConnectionsClass connections {
+     id 14
+     links {
+      ConnectionClass connection {
+       id 38930
+       port 65
+      }
+     }
+    }
+   }
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 110605
+         port 3
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 107533
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+   parent "{98F3A7FCDD54A440}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Wheel_base.conf"
+   pi {
+    3
+   }
+   outState 61451
+   outStatePort 73735
+  }
+  SoundClass : "{98F3A7FCDD54A440}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Wheel_base.conf" {
+   id 53257
+   name "SOUND_TIRE_SKID_FRONT_RIGHT_LP"
+   version 2
+   tl 453.427 2060.714
+   conns {
+    ConnectionsClass connections {
+     id 14
+     links {
+      ConnectionClass connection {
+       id 51218
+       port 65
+      }
+     }
+    }
+   }
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 63501
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+   parent "{98F3A7FCDD54A440}Sounds/_SharedData/Configs/Sound/Vehicles/Sound_Vehicles_Wheel_base.conf"
+   pi {
+    1
+   }
+   outState 61451
+   outStatePort 73735
+  }
+ }
+ buses {
+  BusClass {
+   id 84999
+   name "Dry/Pristine"
+   version 2
+   tl -347.222 23.056
+   conns {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 18436
+       port 65
+      }
+      ConnectionClass connection {
+       id 19460
+       port 65
+      }
+      ConnectionClass connection {
+       id 4100
+       port 65
+      }
+      ConnectionClass connection {
+       id 5124
+       port 65
+      }
+      ConnectionClass connection {
+       id 17412
+       port 65
+      }
+      ConnectionClass connection {
+       id 16388
+       port 65
+      }
+     }
+    }
+   }
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 18
+       links {
+        ConnectionClass connection {
+         id 87062
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 104461
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    3
+   }
+  }
+  BusClass {
+   id 90119
+   name "Land"
+   version 2
+   tl 35.333 22
+   conns {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 57348
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 3
+     links {
+      ConnectionClass connection {
+       id 84999
+       port 65
+      }
+      ConnectionClass connection {
+       id 94215
+       port 65
+      }
+      ConnectionClass connection {
+       id 109575
+       port 65
+      }
+     }
+    }
+   }
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 102413
+         port 8
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    1
+   }
+  }
+  BusClass {
+   id 91143
+   name "Water"
+   version 2
+   tl 37 1588.833
+   conns {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 70660
+       port 65
+      }
+      ConnectionClass connection {
+       id 71684
+       port 65
+      }
+     }
+    }
+   }
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 102413
+         port 9
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    1
+   }
+  }
+  BusClass {
+   id 94215
+   name "Wet"
+   version 2
+   tl -347.222 467.778
+   conns {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 105476
+       port 65
+      }
+      ConnectionClass connection {
+       id 106500
+       port 65
+      }
+     }
+    }
+   }
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 86029
+         port 5
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    1
+   }
+  }
+  BusClass {
+   id 109575
+   name "Flat"
+   version 2
+   tl -342.857 867.143
+   conns {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 97284
+       port 65
+      }
+      ConnectionClass connection {
+       id 98308
+       port 65
+      }
+      ConnectionClass connection {
+       id 99332
+       port 65
+      }
+     }
+    }
+   }
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 50189
+         port 112
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    1
+   }
+  }
+ }
+ mixers {
+  MixerClass {
+   id 61451
+   name "OutputState"
+   version 2
+   tl 763.746 -47.389
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   iops {
+    IOPConnectionClass iopConnection {
+     port 73735
+     conn {
+      ConnectionsClass connections {
+       id 5
+       links {
+        ConnectionClass connection {
+         id 2057
+         port 65
+        }
+        ConnectionClass connection {
+         id 53257
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 152583
+     conn {
+      ConnectionsClass connections {
+       id 25
+       links {
+        ConnectionClass connection {
+         id 115741
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    147456
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "ANM_Footsteps" "ANM_Voice" "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialogue" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialogue_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior"
+   }
+  }
+ }
+ constants {
+  ConstantClass {
+   id 108556
+   name "Constant Offset"
+   tl -853.909 -189.008
+   "Constant values" {
+    IOPConstantsValueClass Offset {
+     Key "Offset"
+     Value 2000
+     Port 1
+    }
+   }
+  }
+  ConstantClass {
+   id 117772
+   name "Constant 117"
+   tl -1014.167 1952.5
+   "Constant values" {
+    IOPConstantsValueClass SUSPENSION_MOVE_MULTIPLIER {
+     Key "SUSPENSION_MOVE_MULTIPLIER"
+     Value 1
+     Port 1
+    }
+   }
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 38930
+   name "Shader 1"
+   version 2
+   tl 276.862 22.266
+   conns {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 111620
+       port 65
+      }
+      ConnectionClass connection {
+       id 113668
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 3
+     links {
+      ConnectionClass connection {
+       id 90119
+       port 65
+      }
+      ConnectionClass connection {
+       id 91143
+       port 65
+      }
+     }
+    }
+   }
+   iops {
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 17
+       links {
+        ConnectionClass connection {
+         id 39957
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 15
+       links {
+        ConnectionClass connection {
+         id 40979
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 24
+       links {
+        ConnectionClass connection {
+         id 73756
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 19
+       links {
+        ConnectionClass connection {
+         id 77847
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    23
+   }
+  }
+  ShaderClass {
+   id 51218
+   name "Shader 3"
+   version 2
+   tl 229.008 2060.714
+   conns {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 52228
+       port 65
+      }
+      ConnectionClass connection {
+       id 55300
+       port 65
+      }
+      ConnectionClass connection {
+       id 72708
+       port 65
+      }
+     }
+    }
+   }
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 15
+       links {
+        ConnectionClass connection {
+         id 116755
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 17
+       links {
+        ConnectionClass connection {
+         id 39957
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 24
+       links {
+        ConnectionClass connection {
+         id 73756
+         port 65
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 18
+       links {
+        ConnectionClass connection {
+         id 75798
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    23
+   }
+   ITD 0
+  }
+ }
+ amplitudes {
+  AmplitudeClass : "{BA1F5E72DA797274}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_0-5.conf" {
+   id 40979
+   tl 274.107 -136.612
+   parent "{BA1F5E72DA797274}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_0-5.conf"
+  }
+  AmplitudeClass : "{BA1F5E72DA797274}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_0-5.conf" {
+   id 116755
+   tl 227 1985
+   parent "{BA1F5E72DA797274}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_0-5.conf"
+  }
+ }
+ frequency {
+  FrequencyClass : "{297DA068231C3532}Sounds/_SharedData/Configs/Frequency/Vehicles/Frequency_Vehicle_Wheel_base.conf" {
+   id 39957
+   tl 275.016 -57.799
+   parent "{297DA068231C3532}Sounds/_SharedData/Configs/Frequency/Vehicles/Frequency_Vehicle_Wheel_base.conf"
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 4100
+   name "Gravel Slow"
+   tl -597.073 -43.532
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 3085
+         port 30
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 108556
+         port 1
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    17
+   }
+   Volume -15
+   Pitch -1.8
+   "Loop count" 255
+   "Infinite loop" 1
+   "Fade in time" 300
+   "Fade out time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{C143765427E10AB9}Sounds/Vehicles/Tracked/BMP3/ext_diesel_treads_soft_01.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 5124
+   name "Gravel Fast"
+   tl -597.073 82.507
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 3085
+         port 31
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 108556
+         port 1
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    17
+   }
+   Volume -15
+   Pitch -1.8
+   "Loop count" 255
+   "Infinite loop" 1
+   "Fade in time" 300
+   "Fade out time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{5F9A359C5C8081EA}Sounds/Vehicles/Tracked/BMP3/ext_diesel_treads_soft_05.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 16388
+   name "Asphalt Fast"
+   tl -598.184 333.476
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 3085
+         port 39
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 108556
+         port 1
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    17
+   }
+   Volume -15
+   Pitch -1.8
+   "Loop count" 255
+   "Infinite loop" 1
+   "Fade in time" 300
+   "Fade out time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{F925B9B695CD196B}Sounds/Vehicles/Tracked/BMP3/ext_diesel_treads_hard_05.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 17412
+   name "Asphalt Slow"
+   tl -594.573 208.547
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 3085
+         port 38
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 108556
+         port 1
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    17
+   }
+   Volume -15
+   Pitch -1.8
+   "Loop count" 255
+   "Infinite loop" 1
+   "Fade in time" 300
+   "Fade out time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{67FCFA7EEEAC9238}Sounds/Vehicles/Tracked/BMP3/ext_diesel_treads_hard_01.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 18436
+   name "Grass Slow"
+   tl -595.406 -295.612
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 3085
+         port 3
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 108556
+         port 1
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    17
+   }
+   Volume -15
+   Pitch -1.8
+   "Loop count" 255
+   "Infinite loop" 1
+   "Fade in time" 300
+   "Fade out time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{C143765427E10AB9}Sounds/Vehicles/Tracked/BMP3/ext_diesel_treads_soft_01.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 19460
+   name "Grass Fast"
+   tl -595.406 -169.572
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 3085
+         port 4
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 108556
+         port 1
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    17
+   }
+   Volume -15
+   Pitch -1.8
+   "Loop count" 255
+   "Infinite loop" 1
+   "Fade in time" 300
+   "Fade out time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{5F9A359C5C8081EA}Sounds/Vehicles/Tracked/BMP3/ext_diesel_treads_soft_05.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 52228
+   name "Skid_Asphalt_1"
+   tl -597.073 2199.02
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 50189
+         port 14
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 50189
+         port 66
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    17
+   }
+   Volume -1
+   "Pitch variance" 1
+   "Loop count" 255
+   "Infinite loop" 1
+   "Fade in time" 300
+   "Fade out time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{04D3DDD75DCC9804}Sounds/Vehicles/_SharedData/Tires/Skid/Skid_Gravel.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 55300
+   name "Skid_Gravel_1"
+   tl -597.073 2067.23
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 50189
+         port 40
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 50189
+         port 65
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    17
+   }
+   Volume 1
+   Pitch 2
+   "Pitch variance" 1
+   "Loop count" 255
+   "Infinite loop" 1
+   "Fade in time" 300
+   "Fade out time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{04D3DDD75DCC9804}Sounds/Vehicles/_SharedData/Tires/Skid/Skid_Gravel.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 57348
+   name "Tires_Gravel_Debris_1"
+   tl -597.073 1298.952
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 62477
+         port 109
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 108556
+         port 1
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    17
+   }
+   Volume -10
+   Pitch -1
+   "Loop count" 255
+   "Infinite loop" 1
+   Selection Random
+   "Fade in time" 300
+   "Fade out time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{3B1A3D6C5B49466E}Sounds/Vehicles/_SharedData/Tires/Soft/Tires_Gravel_Debris_1.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 70660
+   name "Water Slow"
+   tl -597.073 1557.333
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 3085
+         port 157
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 108556
+         port 1
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    17
+   }
+   Volume -8
+   "Loop count" 255
+   "Infinite loop" 1
+   "Fade in time" 300
+   "Fade out time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{6D5A0AD5C39D2079}Sounds/Vehicles/_SharedData/Tires/Soft/Tires_Water_Slow_Ext_1.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 71684
+   name "Water Fast"
+   tl -597.073 1690.556
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 3085
+         port 158
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 108556
+         port 1
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    17
+   }
+   Volume -7
+   "Loop count" 255
+   "Infinite loop" 1
+   "Fade in time" 300
+   "Fade out time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{01F0BACBA53CE593}Sounds/Vehicles/_SharedData/Tires/Soft/Tires_Water_Fast_Ext_1.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 72708
+   name "Skid Lat Asphalt"
+   tl -597.073 2443.5
+   iops {
+    IOPConnectionClass iopConnection {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 50189
+         port 103
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 50189
+         port 92
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    17
+   }
+   Volume -1
+   Pitch -2
+   "Pitch variance" 1
+   "Loop count" 255
+   "Infinite loop" 1
+   "Fade in function" SCurve
+   "Fade in time" 200
+   "Fade out function" SCurve
+   "Fade out time" 400
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{04D3DDD75DCC9804}Sounds/Vehicles/_SharedData/Tires/Skid/Skid_Gravel.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 97284
+   name "Flat Slow"
+   tl -599.573 805.026
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 96269
+         port 29
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 108556
+         port 1
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    17
+   }
+   Volume -4
+   "Loop count" 255
+   "Infinite loop" 1
+   "Fade in time" 300
+   "Fade out time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{899FF0637561DE12}Sounds/Vehicles/_SharedData/Tires/Flat/Tires_Flat_Slow_LP.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 98308
+   name "Flat Mid"
+   tl -599.573 937.324
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 96269
+         port 30
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 108556
+         port 1
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    17
+   }
+   Volume -4
+   "Loop count" 255
+   "Infinite loop" 1
+   "Fade in time" 300
+   "Fade out time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{D5C62875C871C1D6}Sounds/Vehicles/_SharedData/Tires/Flat/Tires_Flat_Mid_LP.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 99332
+   name "Flat Fast"
+   tl -599.573 1069.621
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 96269
+         port 31
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 108556
+         port 1
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    17
+   }
+   Volume -4
+   "Loop count" 255
+   "Infinite loop" 1
+   "Fade in time" 300
+   "Fade out time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{8050BAAD1CD97A82}Sounds/Vehicles/_SharedData/Tires/Flat/Tires_Flat_Fast_LP.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 105476
+   name "Wet Asphalt"
+   tl -598.184 459.516
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 3085
+         port 242
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 108556
+         port 1
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    17
+   }
+   Pitch -1.8
+   "Loop count" 255
+   "Infinite loop" 1
+   "Fade in time" 300
+   "Fade out time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{37E281CD1861D362}Sounds/Vehicles/_SharedData/Tires/Soft/Tires_Wet_Asphalt_Ext_1.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 106500
+   name "Wet Gravel"
+   tl -597.073 586.666
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 3085
+         port 243
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 4
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 108556
+         port 1
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    17
+   }
+   Pitch -1.8
+   "Loop count" 255
+   "Infinite loop" 1
+   "Fade in time" 300
+   "Fade out time" 300
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{6CAF17ACF3A35777}Sounds/Vehicles/_SharedData/Tires/Soft/Tires_Wet_Gravel_Ext_1.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 111620
+   name "UAZ469_CabinRattle_LP"
+   tl -597.906 1833.228
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 112653
+         port 55
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    1
+   }
+   Volume -10
+   "Loop count" 255
+   "Infinite loop" 1
+   "Random start offset" 1
+   "Fade in function" SCurve
+   "Fade in time" 200
+   "Fade out function" SCurve
+   "Fade out time" 1000
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{38D3DB987CFA699D}Sounds/Vehicles/Wheeled/M151A2/Samples/M151A2_CabinRattle_LP.wav"
+    }
+   }
+  }
+  BankLocalClass {
+   id 113668
+   name "UAZ469_CabinRattle_LP"
+   tl -597.545 1945.553
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 112653
+         port 29
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    1
+   }
+   Volume -12
+   "Loop count" 255
+   "Infinite loop" 1
+   "Random start offset" 1
+   "Fade in function" SCurve
+   "Fade in time" 200
+   "Fade out function" SCurve
+   "Fade out time" 1000
+   "Disable streaming" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{EB4EE958BF44DC2A}Sounds/Vehicles/Wheeled/M151A2/Samples/M151A2_CabinStress_LP.wav"
+     Index 1
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass {
+   id 73756
+   name "Spatiality"
+   tl 273.5 -215.75
+   spatialFactor 1
+  }
+ }
+ auxOuts {
+  AuxOutClass {
+   id 115741
+   name "AuxOut 23"
+   version 2
+   tl 758.927 660.57
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 114701
+         port 5
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 9
+       links {
+        ConnectionClass connection {
+         id 114701
+         port 6
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 5
+       links {
+        ConnectionClass connection {
+         id 2057
+         port 5
+        }
+        ConnectionClass connection {
+         id 53257
+         port 5
+        }
+       }
+      }
+     }
+    }
+   }
+   pi {
+    7
+   }
+   OSPort 152583
+  }
+ }
+ version 1
+ listenerWindowModel "{5BB72C16BA48410B}Assets/Vehicles/Wheeled/M998/M998_Base.xob"
+}

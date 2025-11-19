@@ -1,0 +1,20 @@
+Tank : "{ABCC1FF0D6096E47}Prefabs/Vehicles/Tracked/BFV/M2A2_BASE.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{604D7743697148EA}" {
+     SourceMaterial "BODY"
+     AssignedMaterial "{FD704944FE3CE371}Assets/Vehicles/Tracked/BFV/data/BODY.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{AC8B1482F98FE059}Prefabs/Vehicles/Tracked/BFV/VehParts/Turret/M2A2_Turret_OD.et"
+    }
+   }
+  }
+ }
+}

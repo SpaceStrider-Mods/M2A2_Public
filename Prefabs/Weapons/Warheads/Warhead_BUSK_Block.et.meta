@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{9C93D597BF6BBFF1}Prefabs/Weapons/Warheads/Warhead_BUSK_Block.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

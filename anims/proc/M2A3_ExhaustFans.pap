@@ -1,0 +1,413 @@
+ProcAnimProjectClass {
+ signals {
+  SignalClass "{66DC0413E3C6440F}" {
+   id 36868
+   name "Signal 36"
+   tl -472.133 -284.337
+   res "{CD0D10A14BAE95FD}anims/proc/M2A3_ExhaustFans.siga"
+   inputsport {
+    1
+    4
+   }
+   outputsport {
+    2
+   }
+   inputvalues {
+    0
+    0
+   }
+   inputvaluesmin {
+    0
+    0
+   }
+   inputvaluesmax {
+    1
+    1
+   }
+  }
+ }
+ funcs {
+  RotationMakeClass "{66DC0413E3C644C1}" {
+   id 22534
+   name "RotationMake 4102"
+   tl -109.036 -313.299
+   iops {
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 36868
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  RotationSetClass "{66DC0413E3C64486}" {
+   id 24582
+   name "RotationSet 3078"
+   tl 164.88 -477.112
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 26630
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 22534
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+  BoneClass "{66DC0413E3C64372}" {
+   id 26630
+   name "Bone 26630"
+   version 0
+   tl -302.654 -468.43
+   outs {
+    24582
+   }
+   bone "v_upgrade_fan_L01"
+  }
+  BoneClass "{66DC0413E3C6437D}" {
+   id 27654
+   name "Bone 27654"
+   version 0
+   tl -26.018 -151.894
+   outs {
+    29702
+   }
+   bone "v_upgrade_fan_L02"
+  }
+  RotationMakeClass "{66DC0413E3C64345}" {
+   id 28678
+   name "RotationMake 4102"
+   tl -240.297 -112.443
+   iops {
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 36868
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  RotationSetClass "{66DC0413E3C64358}" {
+   id 29702
+   name "RotationSet 3078"
+   tl 178.437 -258.154
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 27654
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 28678
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+  RotationMakeClass "{66DC0413E3C64338}" {
+   id 30726
+   name "RotationMake 4102"
+   tl -153.477 60.361
+   iops {
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 36868
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  RotationSetClass "{66DC0413E3C6430E}" {
+   id 31750
+   name "RotationSet 3078"
+   tl 200.894 -117.531
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 30726
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 34822
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+  RotationMakeClass "{66DC0413E3C643E8}" {
+   id 32774
+   name "RotationMake 4102"
+   tl -101.814 218.755
+   iops {
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 36868
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  RotationSetClass "{66DC0413E3C643FF}" {
+   id 33798
+   name "RotationSet 3078"
+   tl 270.659 73.044
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 32774
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 35846
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+  BoneClass "{66DC0413E3C643D9}" {
+   id 34822
+   name "Bone 34822"
+   version 0
+   tl 20.114 36.204
+   outs {
+    31750
+   }
+   bone "v_upgrade_fan_R01"
+  }
+  BoneClass "{66DC0413E3C643A1}" {
+   id 35846
+   name "Bone 35846"
+   version 0
+   tl 68.211 132.924
+   outs {
+    33798
+   }
+   bone "v_upgrade_fan_R02"
+  }
+ }
+ model "{6FD8A168FFDC8AE1}Assets/Vehicles/Tracked/BFV/M2A3_Upgrade.xob"
+ version 1
+ compiled ProcAnimCompiledClass "{66DC0413E3C643BF}" {
+  visited {
+   1409
+   1153
+   1281
+   897
+   1025
+   769
+   513
+   385
+   641
+   257
+   129
+   1
+  }
+  ops {
+   ProcAnimCompiledOp "{66DC0413E3C6438D}" {
+    data {
+     0
+     0
+    }
+   }
+   ProcAnimCompiledOp "{66DC0413E3C64396}" {
+    data {
+     0
+     4
+     131072
+     0
+     0
+     0
+    }
+   }
+   ProcAnimCompiledOp "{66DC0413E3C64399}" {
+    data {
+     1
+     65536
+     0
+    }
+   }
+   ProcAnimCompiledOp "{66DC0413E3C6439D}" {
+    data {
+     1
+     327680
+     0
+    }
+   }
+   ProcAnimCompiledOp "{66DC0413E3C64262}" {
+    data {
+     0
+     0
+    }
+   }
+   ProcAnimCompiledOp "{66DC0413E3C64266}" {
+    data {
+     0
+     4
+     196608
+     0
+     262144
+     0
+    }
+   }
+   ProcAnimCompiledOp "{66DC0413E3C64269}" {
+    data {
+     0
+     0
+    }
+   }
+   ProcAnimCompiledOp "{66DC0413E3C6426E}" {
+    data {
+     0
+     4
+     393216
+     0
+     655360
+     0
+    }
+   }
+   ProcAnimCompiledOp "{66DC0413E3C64272}" {
+    data {
+     0
+     0
+    }
+   }
+   ProcAnimCompiledOp "{66DC0413E3C64277}" {
+    data {
+     0
+     4
+     524288
+     0
+     720896
+     0
+    }
+   }
+   ProcAnimCompiledOp "{66DC0413E3C64279}" {
+    data {
+     1
+     458752
+     0
+    }
+   }
+   ProcAnimCompiledOp "{66DC0413E3C6427E}" {
+    data {
+     1
+     589824
+     0
+    }
+   }
+  }
+  version 2
+  argsize 20
+ }
+}

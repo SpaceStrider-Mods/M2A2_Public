@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C6AA5D9C9A3E6B3A}Assets/Vehicles/Tracked/BFV/data/Desert/TURRET_Desert.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+ }
+}

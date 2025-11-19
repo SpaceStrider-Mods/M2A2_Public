@@ -1,0 +1,116 @@
+ProcAnimSignalResClass {
+ Inputs {
+  IOPItemInputClass "{66DC0413E3C865F6}" {
+   id 1
+   name "DayDuration"
+   tl -192 4
+   children {
+    3
+   }
+   global 1
+  }
+  IOPItemInputClass "{66DC0413E3C865A5}" {
+   id 4
+   name "TimeOfDay"
+   tl -196 139
+   children {
+    3
+   }
+   global 1
+  }
+  IOPInputValueClass "{66DC0413E3C865BB}" {
+   id 5
+   name "Value 5"
+   tl -192 274
+   children {
+    3
+   }
+   value 360
+  }
+ }
+ Ops {
+  IOPItemOpMulClass "{66DC0413E3C86595}" {
+   id 3
+   name "Mul 3"
+   tl 179 45
+   children {
+    2
+   }
+   inputs {
+    ConnectionClass connection {
+     id 1
+     port 0
+    }
+    ConnectionClass connection {
+     id 5
+     port 0
+    }
+    ConnectionClass connection {
+     id 4
+     port 0
+    }
+   }
+  }
+ }
+ Outputs {
+  IOPItemOutputClass "{66DC0413E3C86450}" {
+   id 2
+   name "Output 2"
+   tl 465 31
+   input 3
+  }
+ }
+ compiled IOPCompiledClass "{66DC0413E3C86379}" {
+  visited {
+   261
+   133
+   5
+   15
+   6
+  }
+  ins {
+   IOPCompiledIn "{66DC0413E3C86352}" {
+    data {
+     1
+     3
+    }
+   }
+   IOPCompiledIn "{66DC0413E3C8635E}" {
+    data {
+     1
+     3
+    }
+   }
+   IOPCompiledIn "{66DC0413E3C86321}" {
+    data {
+     1
+     3
+    }
+   }
+  }
+  ops {
+   IOPCompiledOp "{66DC0413E3C8632E}" {
+    data {
+     1
+     2
+     6
+     0
+     0
+     131072
+     0
+     65536
+     0
+    }
+   }
+  }
+  outs {
+   IOPCompiledOut "{66DC0413E3C8633C}" {
+    data {
+     0
+    }
+   }
+  }
+  processed 5
+  version 2
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C2B5F5DA70937C6F}Sounds/Vehicles/Tracked/BFV/Vehicles_M2A2_Engine.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+  AudioProjectResourceClass PS5 : PC {
+  }
+ }
+}

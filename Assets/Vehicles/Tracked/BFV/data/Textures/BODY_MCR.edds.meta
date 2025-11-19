@@ -1,0 +1,29 @@
+MetaFileClass {
+ Name "{1B6407A4F41FB1B4}Assets/Vehicles/Tracked/BFV/data/Textures/BODY_MCR.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   MaxSize "2048"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+   MaxSize "2048"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+   MaxSize "2048"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass PS4 : PC {
+   MaxSize "2048"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass HEADLESS : PC {
+   MaxSize "2048"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass PS5 : PC {
+   MaxSize "2048"
+   ColorSpace ToSRGB
+  }
+ }
+}

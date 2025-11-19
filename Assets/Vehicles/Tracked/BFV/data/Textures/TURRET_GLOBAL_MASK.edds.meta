@@ -1,0 +1,23 @@
+MetaFileClass {
+ Name "{5EA4F85990F5C064}Assets/Vehicles/Tracked/BFV/data/Textures/TURRET_GLOBAL_MASK.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   MaxSize "256"
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+   MaxSize "256"
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+   MaxSize "256"
+  }
+  TIFFResourceClass PS4 : PC {
+   MaxSize "256"
+  }
+  TIFFResourceClass HEADLESS : PC {
+   MaxSize "256"
+  }
+  TIFFResourceClass PS5 : PC {
+   MaxSize "256"
+  }
+ }
+}

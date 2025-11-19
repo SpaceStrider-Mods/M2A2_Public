@@ -1,0 +1,1467 @@
+FrameWidgetClass "{630F53674DFE3CDA}" {
+ Name "rootFrame"
+ {
+  FrameWidgetClass "{630F53674DFE3CD8}" {
+   Name "Frame"
+   Slot FrameWidgetSlot "{604F067A41505888}" {
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 1024
+    OffsetRight -1024
+    SizeY 883
+    OffsetBottom -883
+   }
+   {
+    RTTextureWidgetClass "{630F53674DFE3CE5}" {
+     Name "RTTexture"
+     Slot FrameWidgetSlot "{604F067A41BD1496}" {
+      Anchor 0 0 1 1
+      PositionX 0
+      OffsetLeft 0
+      PositionY 0
+      OffsetTop 0
+      SizeX 0
+      OffsetRight 0
+      SizeY 0
+      OffsetBottom 0
+     }
+     components {
+      RHS_TouchScreenMenuPMFHandler "{605163DC343A5F5D}" {
+      }
+      RHS_TouchScreenPMFHandler "{60529D0023B75F60}" {
+      }
+     }
+     noclear 1
+     format LDR_sRGB
+     {
+      OverlayWidgetClass "{630F53674DFE3CE3}" {
+       Name "ButtonsMenu"
+       Slot FrameWidgetSlot "{604F618868F3DD3D}" {
+        Anchor 0 0 1 1
+        PositionX 0
+        OffsetLeft 0
+        PositionY 0
+        OffsetTop 0
+        SizeX 0
+        OffsetRight 0
+        SizeY 0
+        OffsetBottom 0
+       }
+       {
+        ImageWidgetClass "{630F53674DFE3CE2}" {
+         Name "Image"
+         Slot OverlayWidgetSlot "{6050013EEAA6E977}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         Texture "{350F07B47234C2F7}UI/layouts/Vehicles/RU_SHARED/images/pmf5/pmf5_base.edds"
+         Size 1024 883
+        }
+        FrameWidgetClass "{630F53674DFE3CE1}" {
+         Name "ButtonsFrame"
+         Slot OverlayWidgetSlot "{6050013EEAA6EAA2}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         {
+          OverlayWidgetClass "{630F53674DFE3CEF}" : "{E116FEC658E7B481}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonSubMenu.layout" {
+           Name "ButtonF1"
+           Slot FrameWidgetSlot "{6050013B8AD1C18D}" {
+            PositionX 13
+            OffsetLeft 13
+            PositionY 13
+            OffsetTop 13
+            SizeX 119
+            OffsetRight -132
+            SizeY 166
+            OffsetBottom -179
+           }
+           components {
+            RHS_TouchScreenButtonSubMenuPMFHandler "{606331D52CB6A554}" {
+             m_sMenuName "other"
+             m_iSubMenuId 3
+            }
+           }
+          }
+          OverlayWidgetClass "{630F53674DFE3CEC}" : "{E116FEC658E7B481}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonSubMenu.layout" {
+           Name "ButtonF2"
+           Slot FrameWidgetSlot "{6050013B8AD1C18D}" {
+            PositionX 13
+            OffsetLeft 13
+            PositionY 183
+            OffsetTop 183
+            SizeX 119
+            OffsetRight -132
+            SizeY 166
+            OffsetBottom -349
+           }
+           components {
+            RHS_TouchScreenButtonSubMenuPMFHandler "{606331D52CB6A554}" {
+             m_sMenuName "cam"
+             m_iSubMenuId 1
+            }
+           }
+          }
+          OverlayWidgetClass "{630F53674DFE3CEA}" : "{E116FEC658E7B481}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonSubMenu.layout" {
+           Name "ButtonF3"
+           Slot FrameWidgetSlot "{6050013B8AD1C18D}" {
+            PositionX 13
+            OffsetLeft 13
+            PositionY 356
+            OffsetTop 356
+            SizeX 119
+            OffsetRight -132
+            SizeY 166
+            OffsetBottom -522
+           }
+           components {
+            RHS_TouchScreenButtonSubMenuPMFHandler "{606331D52CB6A554}" {
+             m_sMenuName "cor"
+             m_iSubMenuId 0
+             m_iLeftMenuId 1
+            }
+           }
+          }
+          OverlayWidgetClass "{630F53674DFE3CE8}" : "{E116FEC658E7B481}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonSubMenu.layout" {
+           Name "ButtonF4"
+           Slot FrameWidgetSlot "{6050013B8AD1C18D}" {
+            PositionX 13
+            OffsetLeft 13
+            PositionY 528
+            OffsetTop 528
+            SizeX 119
+            OffsetRight -132
+            SizeY 166
+            OffsetBottom -694
+           }
+           components {
+            RHS_TouchScreenButtonSubMenuPMFHandler "{606331D52CB6A554}" {
+            }
+           }
+          }
+          OverlayWidgetClass "{630F53674DFE3CF6}" : "{E116FEC658E7B481}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonSubMenu.layout" {
+           Name "ButtonF5"
+           Slot FrameWidgetSlot "{6050013B8AD1C18D}" {
+            PositionX 13
+            OffsetLeft 13
+            PositionY 698
+            OffsetTop 698
+            SizeX 119
+            OffsetRight -132
+            SizeY 166
+            OffsetBottom -864
+           }
+           components {
+            RHS_TouchScreenButtonSubMenuPMFHandler "{606331D52CB6A554}" {
+            }
+           }
+          }
+          OverlayWidgetClass "{630F53674DFE3CF5}" : "{E116FEC658E7B481}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonSubMenu.layout" {
+           Name "ButtonK1"
+           Slot FrameWidgetSlot "{6050013B8AD1C18D}" {
+            PositionX 893
+            OffsetLeft 893
+            PositionY 13
+            OffsetTop 13
+            SizeX 119
+            OffsetRight -1012
+            SizeY 166
+            OffsetBottom -179
+           }
+           components {
+            RHS_TouchScreenButtonSubMenuPMFHandler "{606331D52CB6A554}" {
+             m_sMenuName "weapon"
+            }
+           }
+          }
+          OverlayWidgetClass "{630F53674DFE3CF4}" : "{E116FEC658E7B481}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonSubMenu.layout" {
+           Name "ButtonK2"
+           Slot FrameWidgetSlot "{6050013B8AD1C18D}" {
+            PositionX 893
+            OffsetLeft 893
+            PositionY 184
+            OffsetTop 184
+            SizeX 119
+            OffsetRight -1012
+            SizeY 166
+            OffsetBottom -350
+           }
+           components {
+            RHS_TouchScreenButtonSubMenuPMFHandler "{606331D52CB6A554}" {
+             m_sMenuName "map"
+             m_iSubMenuId 2
+            }
+           }
+          }
+          OverlayWidgetClass "{630F53674DFE3CF2}" : "{E116FEC658E7B481}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonSubMenu.layout" {
+           Name "ButtonK3"
+           Slot FrameWidgetSlot "{6050013B8AD1C18D}" {
+            PositionX 893
+            OffsetLeft 893
+            PositionY 355
+            OffsetTop 355
+            SizeX 119
+            OffsetRight -1012
+            SizeY 166
+            OffsetBottom -521
+           }
+           components {
+            RHS_TouchScreenButtonSubMenuPMFHandler "{606331D52CB6A554}" {
+             m_sMenuName "dam"
+             m_iSubMenuId 5
+            }
+           }
+          }
+          OverlayWidgetClass "{630F53674DFE3CF1}" : "{E116FEC658E7B481}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonSubMenu.layout" {
+           Name "ButtonK4"
+           Slot FrameWidgetSlot "{6050013B8AD1C18D}" {
+            PositionX 893
+            OffsetLeft 893
+            PositionY 528
+            OffsetTop 528
+            SizeX 119
+            OffsetRight -1012
+            SizeY 166
+            OffsetBottom -694
+           }
+           components {
+            RHS_TouchScreenButtonSubMenuPMFHandler "{606331D52CB6A554}" {
+            }
+           }
+          }
+          OverlayWidgetClass "{630F53674DFE3CFF}" : "{E116FEC658E7B481}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonSubMenu.layout" {
+           Name "ButtonK5"
+           Slot FrameWidgetSlot "{6050013B8AD1C18D}" {
+            PositionX 893
+            OffsetLeft 893
+            PositionY 698
+            OffsetTop 698
+            SizeX 119
+            OffsetRight -1012
+            SizeY 166
+            OffsetBottom -864
+           }
+           components {
+            RHS_TouchScreenButtonSubMenuPMFHandler "{606331D52CB6A554}" {
+             m_sMenuName "main"
+             m_iSubMenuId 0
+             m_iLeftMenuId 0
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      OverlayWidgetClass "{630F53674DFE3CFE}" {
+       Name "MainMenu"
+       Slot FrameWidgetSlot "{604F61884679C0B4}" {
+        PositionX 134
+        OffsetLeft 134
+        PositionY 0
+        OffsetTop 0
+        SizeX 755
+        OffsetRight -889
+        SizeY 882
+        OffsetBottom -882
+       }
+       "Is Visible" 0
+       components {
+        RHS_TouchScreenMenuPMFMainHandler "{605163D924B93266}" {
+        }
+       }
+       {
+        HorizontalLayoutWidgetClass "{630F53674DFE3CFD}" {
+         Name "HorizontalLayout"
+         Slot OverlayWidgetSlot "{605020B32BF1F060}" {
+         }
+         {
+          OverlayWidgetClass "{630F53674DFE3CFC}" {
+           Name "OverlayLeft"
+           Slot LayoutSlot "{6050FA8D10BFAED7}" {
+           }
+           {
+            OverlayWidgetClass "{630F53674DFE3CFB}" {
+             Name "LeftMenuMain"
+             Slot OverlayWidgetSlot "{606310586F892B7D}" {
+             }
+             components {
+              RHS_TouchScreenLeftMenuMain "{606331D0A779C2D7}" {
+              }
+             }
+             {
+              ImageWidgetClass "{630F53674DFE3CFA}" {
+               Name "ImageLeft"
+               Slot OverlayWidgetSlot "{6050FA86DB514940}" {
+               }
+               Texture "{6F006DFB059DA932}UI/layouts/Vehicles/RU_SHARED/images/pmf5/pmf5_left_bar.edds"
+               Size 255 883
+              }
+              FrameWidgetClass "{630F53674DFE3CF9}" {
+               Name "OrientationData"
+               Slot OverlayWidgetSlot "{5E4B2EF19004E310}" {
+                HorizontalAlign 3
+                VerticalAlign 3
+               }
+               components {
+                RHS_VehicleOrientationDataHandler "{6050FABCFE5CF973}" {
+                }
+               }
+               {
+                FrameWidgetClass "{630F53674DFE3CF8}" {
+                 Name "OverlayTankPosition"
+                 Slot FrameWidgetSlot "{6050FA8ED3DC2DE8}" {
+                  PositionX 30
+                  OffsetLeft 30
+                  PositionY 262
+                  OffsetTop 262
+                  SizeX 100
+                  OffsetRight -130
+                  SizeY 30
+                  OffsetBottom -292
+                  SizeToContent 1
+                 }
+                 {
+                  ImageWidgetClass "{630F53674DFE3C87}" {
+                   Name "HUD_VehicleHorizon_IMG"
+                   Slot FrameWidgetSlot "{6050FA8E63E64190}" {
+                    PositionX 87
+                    OffsetLeft 87
+                    PositionY 4
+                    OffsetTop 4
+                    SizeX 100
+                    OffsetRight -187
+                    SizeY 30
+                    OffsetBottom -34
+                    SizeToContent 1
+                   }
+                   "Is Enabled" 0
+                   Rotation 0
+                   Texture "{A536B8E2DD8AF939}UI/Imagesets/T14_horizontal.edds"
+                   Size 100 100
+                  }
+                  ImageWidgetClass "{630F53674DFE3C86}" {
+                   Name "HUD_VehicleRoll_IMG"
+                   Slot FrameWidgetSlot "{6050FA8E63E6418C}" {
+                    PositionX 1
+                    OffsetLeft 1
+                    PositionY 16
+                    OffsetTop 16
+                    SizeX 100
+                    OffsetRight -101
+                    SizeY 30
+                    OffsetBottom -46
+                    SizeToContent 1
+                   }
+                   "Is Enabled" 0
+                   Rotation 0
+                   Texture "{953BF559D361BFF8}UI/Imagesets/T14_roll.edds"
+                   Size 70 70
+                  }
+                  TextWidgetClass "{630F53674DFE3C84}" {
+                   Name "HUD_VehicleRoll"
+                   Slot FrameWidgetSlot "{6050FA8E63E6418B}" {
+                    PositionX 11
+                    OffsetLeft 11
+                    PositionY 107
+                    OffsetTop 107
+                    SizeX 52
+                    OffsetRight -63
+                    SizeY 30
+                    OffsetBottom -137
+                    SizeToContent 1
+                   }
+                   Text "-1"
+                   "Font Size" 40
+                   "Min Font Size" 40
+                   "Horizontal Alignment" Right
+                   FontProperties FontProperties "{5E033BED74B1E4F1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                  TextWidgetClass "{630F53674DFE3C83}" {
+                   Name "HUD_VehicleHorizon"
+                   Slot FrameWidgetSlot "{6050FA8E63E64182}" {
+                    PositionX 114
+                    OffsetLeft 114
+                    PositionY 107
+                    OffsetTop 107
+                    SizeX 60
+                    OffsetRight -174
+                    SizeY 30
+                    OffsetBottom -137
+                    SizeToContent 1
+                   }
+                   Text "+55"
+                   "Font Size" 40
+                   "Min Font Size" 40
+                   "Horizontal Alignment" Right
+                   FontProperties FontProperties "{5E033BED74B1E4F1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                 }
+                }
+                FrameWidgetClass "{630F53674DFE3C82}" {
+                 Name "Frame"
+                 Slot FrameWidgetSlot "{6050FA8FFE59BA90}" {
+                  PositionX 24
+                  OffsetLeft 24
+                  PositionY 31
+                  OffsetTop 31
+                  SizeX 100
+                  OffsetRight -124
+                  SizeY 30
+                  OffsetBottom -61
+                  SizeToContent 1
+                 }
+                 {
+                  OverlayWidgetClass "{630F53674DFE3C81}" {
+                   Name "OverlayTank"
+                   Slot FrameWidgetSlot "{6050FA8ED3DC2DE2}" {
+                    PositionX 21
+                    OffsetLeft 21
+                    PositionY 0
+                    OffsetTop 0
+                    SizeX 100
+                    OffsetRight -121
+                    SizeY 30
+                    OffsetBottom -30
+                    SizeToContent 1
+                   }
+                   {
+                    ImageWidgetClass "{630F53674DFE3C80}" {
+                     Name "HUD_TankBase"
+                     Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                     }
+                     Rotation 0
+                     Pivot 0.5 0.5
+                     Texture "{7E19166D1C4818B3}UI/Imagesets/TankBase_ca.edds"
+                     Size 128 160
+                    }
+                    ImageWidgetClass "{630F53674DFE3C8F}" {
+                     Name "HUD_Turret"
+                     Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                     }
+                     Pivot 0.5 0.5
+                     Texture "{C5BC43F01A44AA45}UI/Imagesets/GunnerTurret_ca.edds"
+                     Size 105 105
+                    }
+                    ImageWidgetClass "{630F53674DFE3C8E}" {
+                     Name "HUD_TraverseGunner_IMG"
+                     Slot OverlayWidgetSlot "{5E06AA73F891253D}" {
+                     }
+                     "Is Enabled" 0
+                     Rotation 0
+                     Texture "{9563365A9A0C16D6}UI/Imagesets/TurretGun_ca.edds"
+                     Size 160 160
+                    }
+                    ImageWidgetClass "{630F53674DFE3C8D}" {
+                     Name "HUD_TraverseCommander_IMG"
+                     Slot OverlayWidgetSlot "{5E06AA73F8912512}" {
+                     }
+                     Rotation 18.1
+                     Texture "{9563365A9A0C16D6}UI/Imagesets/TurretGun_ca.edds"
+                     Size 80 80
+                    }
+                   }
+                  }
+                  TextWidgetClass "{630F53674DFE3C8C}" {
+                   Name "PanHeader"
+                   Slot FrameWidgetSlot "{6050FA8F84B6F2E1}" {
+                    PositionX 100
+                    OffsetLeft 100
+                    PositionY 165
+                    OffsetTop 165
+                    SizeX 100
+                    OffsetRight -200
+                    SizeY 30
+                    OffsetBottom -195
+                    SizeToContent 1
+                   }
+                   Text "Панорама"
+                   "Font Size" 30
+                   "Min Font Size" 30
+                   "Horizontal Alignment" Center
+                   FontProperties FontProperties "{5E033BE3001C11E1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                  TextWidgetClass "{630F53674DFE3C8B}" {
+                   Name "HUD_PanAngle"
+                   Slot FrameWidgetSlot "{6050FA8F84B6F2E1}" {
+                    PositionX 120
+                    OffsetLeft 120
+                    PositionY 195
+                    OffsetTop 195
+                    SizeX 100
+                    OffsetRight -220
+                    SizeY 30
+                    OffsetBottom -225
+                    SizeToContent 1
+                   }
+                   Text "31-01"
+                   "Font Size" 30
+                   "Min Font Size" 30
+                   "Horizontal Alignment" Center
+                   FontProperties FontProperties "{5E033BE3001C11E1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                  TextWidgetClass "{630F53674DFE3C8A}" {
+                   Name "TurretHeader"
+                   Slot FrameWidgetSlot "{6050FA8F84B6F2E1}" {
+                    PositionX 12
+                    OffsetLeft 12
+                    PositionY 165
+                    OffsetTop 165
+                    SizeX 100
+                    OffsetRight -112
+                    SizeY 30
+                    OffsetBottom -195
+                    SizeToContent 1
+                   }
+                   Text "Башня"
+                   "Font Size" 30
+                   "Min Font Size" 30
+                   "Horizontal Alignment" Center
+                   FontProperties FontProperties "{5E033BE3001C11E1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                  TextWidgetClass "{630F53674DFE3C89}" {
+                   Name "HUD_TurretAngle"
+                   Slot FrameWidgetSlot "{6050FA8F84B6F2E1}" {
+                    PositionX 13
+                    OffsetLeft 13
+                    PositionY 195
+                    OffsetTop 195
+                    SizeX 100
+                    OffsetRight -113
+                    SizeY 30
+                    OffsetBottom -225
+                    SizeToContent 1
+                   }
+                   Text "30-34"
+                   "Font Size" 30
+                   "Min Font Size" 30
+                   "Horizontal Alignment" Center
+                   FontProperties FontProperties "{5E033BE3001C11E1}" {
+                    Font "{43C8B763C2AB52E5}UI/Fonts/GOST_A.fnt"
+                    ForceFont 1
+                   }
+                   Offset 0 0
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+            OverlayWidgetClass "{630F53674DFE3C88}" {
+             Name "LeftMenuCamera"
+             Slot OverlayWidgetSlot "{606310586F892B7D}" {
+             }
+             "Is Visible" 0
+             components {
+              RHS_TouchScreenLeftMenuCamera "{606331DCFDED6376}" {
+              }
+             }
+             {
+              ImageWidgetClass "{630F53674DFE3C97}" {
+               Name "ImageLeft"
+               Slot OverlayWidgetSlot "{6050FA86DB514940}" {
+               }
+               Texture "{6759131233D2F7B5}UI/layouts/Vehicles/RU_SHARED/images/pmf5/pmf5_main_menu_camera.edds"
+               Size 256 883
+              }
+              FrameWidgetClass "{630F53674DFE3C96}" {
+               Name "Buttons"
+               Slot OverlayWidgetSlot "{606310582114512F}" {
+                HorizontalAlign 3
+                VerticalAlign 3
+               }
+               {
+                ImageWidgetClass "{630F53674DFE3C95}" {
+                 Name "Autocontrast"
+                 Slot FrameWidgetSlot "{60631059E1568FF3}" {
+                  PositionX 78
+                  OffsetLeft 78
+                  PositionY 194
+                  OffsetTop 194
+                  SizeX 100
+                  OffsetRight -178
+                  SizeY 100
+                  OffsetBottom -294
+                 }
+                 "Ignore Cursor" 0
+                 components {
+                  RHS_TouchScreenWidgetHandler "{606331D6F0EADD1F}" {
+                  }
+                 }
+                 Texture "{2F6E87C31A404466}UI/layouts/Vehicles/RU_SHARED/images/pmf5/pmf5_camera_list_selector.edds"
+                 Size 80 80
+                }
+                ImageWidgetClass "{630F53674DFE3C94}" {
+                 Name "Focus"
+                 Slot FrameWidgetSlot "{60631059E1568FF3}" {
+                  PositionX 78
+                  OffsetLeft 78
+                  PositionY 27
+                  OffsetTop 27
+                  SizeX 100
+                  OffsetRight -178
+                  SizeY 100
+                  OffsetBottom -127
+                 }
+                 "Ignore Cursor" 0
+                 components {
+                  RHS_TouchScreenWidgetHandler "{606331D6EC126181}" {
+                  }
+                 }
+                 Texture "{2F6E87C31A404466}UI/layouts/Vehicles/RU_SHARED/images/pmf5/pmf5_camera_list_selector.edds"
+                 Size 80 80
+                }
+                ImageWidgetClass "{630F53674DFE72E0}" {
+                 Name "Autobalance"
+                 Slot FrameWidgetSlot "{60631059E1568FF3}" {
+                  PositionX 78
+                  OffsetLeft 78
+                  PositionY 363
+                  OffsetTop 363
+                  SizeX 100
+                  OffsetRight -178
+                  SizeY 100
+                  OffsetBottom -463
+                 }
+                 "Ignore Cursor" 0
+                 components {
+                  RHS_TouchScreenWidgetHandler "{606331D6E645E6BF}" {
+                  }
+                 }
+                 Texture "{2F6E87C31A404466}UI/layouts/Vehicles/RU_SHARED/images/pmf5/pmf5_camera_list_selector.edds"
+                 Size 80 80
+                }
+                ImageWidgetClass "{630F53674DFE72E5}" {
+                 Name "Lighter"
+                 Slot FrameWidgetSlot "{60631059E1568FF3}" {
+                  PositionX 78
+                  OffsetLeft 78
+                  PositionY 532
+                  OffsetTop 532
+                  SizeX 100
+                  OffsetRight -178
+                  SizeY 100
+                  OffsetBottom -632
+                 }
+                 "Ignore Cursor" 0
+                 components {
+                  RHS_TouchScreenWidgetHandler "{606331D6E2A88CB6}" {
+                  }
+                 }
+                 Texture "{2F6E87C31A404466}UI/layouts/Vehicles/RU_SHARED/images/pmf5/pmf5_camera_list_selector.edds"
+                 Size 80 80
+                }
+                ImageWidgetClass "{630F53674DFE72E4}" {
+                 Name "Darker"
+                 Slot FrameWidgetSlot "{60631059E1568FF3}" {
+                  PositionX 78
+                  OffsetLeft 78
+                  PositionY 700
+                  OffsetTop 700
+                  SizeX 100
+                  OffsetRight -178
+                  SizeY 100
+                  OffsetBottom -800
+                 }
+                 "Ignore Cursor" 0
+                 components {
+                  RHS_TouchScreenWidgetHandler "{606331D6CB178CB2}" {
+                  }
+                 }
+                 Texture "{2F6E87C31A404466}UI/layouts/Vehicles/RU_SHARED/images/pmf5/pmf5_camera_list_selector.edds"
+                 Size 80 80
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+          OverlayWidgetClass "{630F53674DFE72EB}" {
+           Name "OverlayRight"
+           Slot LayoutSlot "{60529DF9AE81F636}" {
+           }
+           {
+            ImageWidgetClass "{630F53674DFE72EA}" {
+             Name "ImageRight"
+             Slot OverlayWidgetSlot "{60529D0C7E721DA5}" {
+             }
+             Texture "{25C92E0A55522F82}UI/layouts/Vehicles/RU_SHARED/images/pmf5/pmf5_right_bar.edds"
+             Size 501 883
+            }
+            FrameWidgetClass "{630F53674DFE72E9}" {
+             Name "Frame"
+             Slot OverlayWidgetSlot "{60529D0C7E721DBB}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+             }
+             {
+              FrameWidgetClass "{630F53674DFE72E8}" {
+               Name "SystemsButtonsFrame"
+               Slot FrameWidgetSlot "{6094FC92474259EB}" {
+                Anchor 0 0 1 1
+                PositionX 0
+                OffsetLeft 0
+                PositionY 0
+                OffsetTop 0
+                SizeX -362
+                OffsetRight 0
+                SizeY -749
+                OffsetBottom 0
+               }
+               {
+                OverlayWidgetClass "{630F53674DFE72EE}" : "{55530D0D4F71E249}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonSystem.layout" {
+                 Name "ArmourButton"
+                 Slot FrameWidgetSlot "{6094FC935F542848}" {
+                  PositionX 185
+                  OffsetLeft 185
+                  PositionY 34
+                  OffsetTop 34
+                  SizeX 139
+                  OffsetRight -324
+                  SizeY 133
+                  OffsetBottom -167
+                 }
+                 {
+                  FrameWidgetClass "{6094FC932962BB4D}" {
+                   Prefab "{6094FC932962BB4D}"
+                   {
+                    ImageWidgetClass "{6094FC93332DAD9A}" {
+                     Prefab "{6094FC93332DAD9A}"
+                     Image "Armour"
+                     Size 86 86
+                    }
+                   }
+                  }
+                 }
+                }
+                OverlayWidgetClass "{630F53674DFE72EC}" : "{55530D0D4F71E249}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonSystem.layout" {
+                 Name "WeaponButton"
+                 Slot FrameWidgetSlot "{6094FC935F542848}" {
+                 }
+                }
+                OverlayWidgetClass "{630F53674DFE72D2}" : "{55530D0D4F71E249}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonSystem.layout" {
+                 Name "MovementButton"
+                 Slot FrameWidgetSlot "{6094FC935F542848}" {
+                  PositionX 344
+                  OffsetLeft 344
+                  PositionY 33
+                  OffsetTop 33
+                  SizeX 139
+                  OffsetRight -483
+                  SizeY 133
+                  OffsetBottom -166
+                 }
+                 {
+                  FrameWidgetClass "{6094FC932962BB4D}" {
+                   Prefab "{6094FC932962BB4D}"
+                   {
+                    ImageWidgetClass "{6094FC93332DAD9A}" {
+                     Prefab "{6094FC93332DAD9A}"
+                     Image "Movement"
+                     Size 86 86
+                    }
+                   }
+                  }
+                 }
+                }
+                OverlayWidgetClass "{630F53674DFE72D1}" : "{55530D0D4F71E249}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonSystem.layout" {
+                 Name "ControlsButton"
+                 Slot FrameWidgetSlot "{6094FC935F542848}" {
+                  PositionX 25
+                  OffsetLeft 25
+                  PositionY 238
+                  OffsetTop 238
+                  SizeX 139
+                  OffsetRight -164
+                  SizeY 133
+                  OffsetBottom -371
+                 }
+                 {
+                  FrameWidgetClass "{6094FC932962BB4D}" {
+                   Prefab "{6094FC932962BB4D}"
+                   {
+                    ImageWidgetClass "{6094FC93332DAD9A}" {
+                     Prefab "{6094FC93332DAD9A}"
+                     Image "Controls"
+                     Size 86 86
+                    }
+                   }
+                  }
+                 }
+                }
+                OverlayWidgetClass "{630F53674DFE72D0}" : "{55530D0D4F71E249}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonSystem.layout" {
+                 Name "MapButton"
+                 Slot FrameWidgetSlot "{6094FC935F542848}" {
+                  PositionX 185
+                  OffsetLeft 185
+                  PositionY 238
+                  OffsetTop 238
+                  SizeX 139
+                  OffsetRight -324
+                  SizeY 133
+                  OffsetBottom -371
+                 }
+                 {
+                  FrameWidgetClass "{6094FC932962BB4D}" {
+                   Prefab "{6094FC932962BB4D}"
+                   {
+                    ImageWidgetClass "{6094FC93332DAD9A}" {
+                     Prefab "{6094FC93332DAD9A}"
+                     Image "Map"
+                     Size 86 86
+                    }
+                   }
+                  }
+                 }
+                }
+                OverlayWidgetClass "{630F53674DFE72D4}" : "{55530D0D4F71E249}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonSystem.layout" {
+                 Name "OtherButton"
+                 Slot FrameWidgetSlot "{6094FC935F542848}" {
+                  PositionX 344
+                  OffsetLeft 344
+                  PositionY 238
+                  OffsetTop 238
+                  SizeX 139
+                  OffsetRight -483
+                  SizeY 133
+                  OffsetBottom -371
+                 }
+                 {
+                  FrameWidgetClass "{6094FC932962BB4D}" {
+                   Prefab "{6094FC932962BB4D}"
+                   {
+                    ImageWidgetClass "{6094FC93332DAD9A}" {
+                     Prefab "{6094FC93332DAD9A}"
+                     Image "Other"
+                     Size 86 86
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+              TextWidgetClass "{630F53674DFE72DB}" {
+               Name "CriticalMessages"
+               Slot FrameWidgetSlot "{60529DF947F7C2F0}" {
+                PositionX 377
+                OffsetLeft 377
+                PositionY 576
+                OffsetTop 576
+                SizeX 67
+                OffsetRight -444
+                SizeY 36
+                OffsetBottom -612
+               }
+               Text "256"
+               "Font Size" 36
+               "Min Font Size" 36
+               "Horizontal Alignment" Center
+              }
+              TextWidgetClass "{630F53674DFE72DA}" {
+               Name "ImportantMessages"
+               Slot FrameWidgetSlot "{60529DF947F7C2F0}" {
+                PositionX 218
+                OffsetLeft 218
+                PositionY 576
+                OffsetTop 576
+                SizeX 67
+                OffsetRight -285
+                SizeY 36
+                OffsetBottom -612
+               }
+               Text "4"
+               "Font Size" 36
+               "Min Font Size" 36
+               "Horizontal Alignment" Center
+              }
+              TextWidgetClass "{630F53674DFE72D9}" {
+               Name "RegularMessages"
+               Slot FrameWidgetSlot "{60529DF947F7C2F0}" {
+                PositionX 58
+                OffsetLeft 58
+                PositionY 576
+                OffsetTop 576
+                SizeX 67
+                OffsetRight -125
+                SizeY 36
+                OffsetBottom -612
+               }
+               Text "12"
+               "Font Size" 36
+               "Min Font Size" 36
+               "Horizontal Alignment" Center
+              }
+              TextWidgetClass "{630F53674DFE72D8}" {
+               Name "Datetime"
+               Slot FrameWidgetSlot "{60529DF947F7C2F0}" {
+                Anchor 0 0.5 1 0.5
+                PositionX 0
+                OffsetLeft 0
+                PositionY 378
+                OffsetTop 378
+                SizeX 0
+                OffsetRight 0
+                SizeY 25
+                OffsetBottom -403
+               }
+               Text "15:53.00. вторник. 20.12.2015"
+               "Horizontal Alignment" Center
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      OverlayWidgetClass "{630F53674DFE72DE}" {
+       Name "MapMenu"
+       Slot FrameWidgetSlot "{604F61884679C0B4}" {
+        Anchor 0 0 1 1
+        PositionX 139
+        PositionY 0
+        OffsetTop 0
+        SizeX -280
+        OffsetRight 0
+        SizeY -1
+        OffsetBottom 0
+       }
+       "Is Visible" 0
+       "Ignore Cursor" 0
+       components {
+        RHS_TouchScreenMenuPMFMapHandler "{605163D9285E508B}" {
+        }
+       }
+       {
+        ImageWidgetClass "{630F53674DFE72C3}" {
+         Name "ImageWater"
+         Slot OverlayWidgetSlot "{62310ECB59538C4C}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         Color 0.177 0.313 0.565 1
+        }
+        SizeLayoutWidgetClass "{630F53674DFE72C2}" {
+         Name "SizeLayout"
+         Slot OverlayWidgetSlot "{6231022CC609E128}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         AllowWidthOverride 1
+         WidthOverride 1024
+         AllowHeightOverride 1
+         HeightOverride 883
+         {
+          FrameWidgetClass "{630F53674DFE72C7}" : "{3D3F236D9EFD6757}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/GPSMap/GPSMapPMF.layout" {
+           Name "GPSMapWrap"
+           Slot AlignableSlot "{6231022CC6750E1D}" {
+            HorizontalAlign 3
+            VerticalAlign 3
+           }
+           {
+            FrameWidgetClass "{624B36E1BCDD8E48}" {
+             Prefab "{624B36E1BCDD8E48}"
+             components {
+              RHS_PMFGPSMapWidgetComponent "{62377EA9B3D28D14}" {
+               m_aAvaliableMarkerIcons RHS_TouchScreenPMFGPSAvaliableMarkerIcons "{624C577CCC019DDE}" : "{6314D6D1F1E42C9C}Configs/Vehicles/PMF_Screen/PMFAvaliableMarkerIcons.conf" {
+               }
+               m_aAvaliableMarkerIcons_blufor RHS_TouchScreenPMFGPSAvaliableMarkerIcons "{628AD3CEAD01596A}" : "{D643E11329F6AFC7}Configs/Vehicles/PMF_Screen/PMFAvaliableMarkerIcons_blufor.conf" {
+               }
+               m_aAvaliableMarkerIcons_indfor RHS_TouchScreenPMFGPSAvaliableMarkerIcons "{628AD3CEAE1A38E2}" : "{F8C1B37651819084}Configs/Vehicles/PMF_Screen/PMFAvaliableMarkerIcons_indofr.conf" {
+               }
+               m_aAvaliableMarkerIcons_opfor RHS_TouchScreenPMFGPSAvaliableMarkerIcons "{628AD3CEAF227CBF}" : "{5AA6E542CCE94DB9}Configs/Vehicles/PMF_Screen/PMFAvaliableMarkerIcons_opfor.conf" {
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      OverlayWidgetClass "{630F53674DFE7221}" : "{3CB2A8A5D66CC574}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMF_Screen_DrongOSMenu.layout" {
+       Name "DrongOSMenu"
+       Slot FrameWidgetSlot "{605163F635E632B5}" {
+       }
+       "Is Visible" 0
+      }
+      OverlayWidgetClass "{630F53674DFE7228}" {
+       Name "CameraMenu"
+       Slot FrameWidgetSlot "{604F61884679C0B4}" {
+        PositionX 139
+        OffsetLeft 139
+        PositionY 0
+        OffsetTop 0
+        SizeX 744
+        OffsetRight -883
+        SizeY 881
+        OffsetBottom -881
+       }
+       "Is Visible" 0
+       components {
+        RHS_TouchScreenMenuPMFCameraHandler "{605163D91C7644EB}" {
+        }
+       }
+       {
+        VerticalLayoutWidgetClass "{630F53674DFE722F}" {
+         Name "VerticalLayout"
+         Slot OverlayWidgetSlot "{6050FAAD70F879DE}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         {
+          OverlayWidgetClass "{630F53674DFE722E}" {
+           Name "Overlay"
+           Slot LayoutSlot "{6050FAAFD880C331}" {
+            SizeMode Fill
+           }
+           {
+            RenderTargetWidgetClass "{630F53674DFE722D}" {
+             Name "RenderTarget"
+             Slot OverlayWidgetSlot "{604F78E2C2497716}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+             }
+             "Ignore Cursor" 0
+             components {
+              RHS_TouchScreenCameraWidgetHandler "{60529D05419D13C2}" {
+              }
+             }
+             refresh 30
+            }
+            FrameWidgetClass "{630F53674DFE722C}" {
+             Name "OrientationData"
+             Slot OverlayWidgetSlot "{60529D1D12C9FDB7}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+             }
+             components {
+              RHS_PMFCameraOrientationDataHandler "{60529D1B5EBAB6C6}" {
+              }
+             }
+             {
+              OverlayWidgetClass "{630F53674DFE7210}" {
+               Name "OverlayTank"
+               Slot FrameWidgetSlot "{6050FA8ED3DC2DE2}" {
+                PositionX 574
+                OffsetLeft 574
+                PositionY 15
+                OffsetTop 15
+                SizeX 100
+                OffsetRight -674
+                SizeY 30
+                OffsetBottom -45
+                SizeToContent 1
+               }
+               {
+                ImageWidgetClass "{630F53674DFE7217}" {
+                 Name "HUD_TankBase"
+                 Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                 }
+                 Rotation 0
+                 Pivot 0.5 0.5
+                 Texture "{7E19166D1C4818B3}UI/Imagesets/TankBase_ca.edds"
+                 Size 128 160
+                }
+                CanvasWidgetClass "{630F53674DFE7216}" {
+                 Name "HUD_CameraCanvas"
+                 Slot OverlayWidgetSlot "{60529D186B75206E}" {
+                  HorizontalAlign 3
+                  VerticalAlign 3
+                 }
+                }
+                ImageWidgetClass "{630F53674DFE7215}" {
+                 Name "HUD_Turret"
+                 Slot OverlayWidgetSlot "{5E035D346E5481B3}" {
+                 }
+                 Pivot 0.5 0.5
+                 Texture "{C5BC43F01A44AA45}UI/Imagesets/GunnerTurret_ca.edds"
+                 Size 105 105
+                }
+                ImageWidgetClass "{630F53674DFE7214}" {
+                 Name "HUD_TraverseGunner_IMG"
+                 Slot OverlayWidgetSlot "{5E06AA73F891253D}" {
+                 }
+                 Rotation 0
+                 Texture "{9563365A9A0C16D6}UI/Imagesets/TurretGun_ca.edds"
+                 Size 160 160
+                }
+                ImageWidgetClass "{630F53674DFE721B}" {
+                 Name "HUD_TraverseCommander_IMG"
+                 Slot OverlayWidgetSlot "{5E06AA73F8912512}" {
+                 }
+                 Rotation 18.1
+                 Texture "{9563365A9A0C16D6}UI/Imagesets/TurretGun_ca.edds"
+                 Size 80 80
+                }
+               }
+              }
+             }
+            }
+            FrameWidgetClass "{630F53674DFE721A}" {
+             Name "TargetsFrame"
+             Slot OverlayWidgetSlot "{6058318B7BC1E89E}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+             }
+            }
+           }
+          }
+          FrameWidgetClass "{630F53674DFE7219}" {
+           Name "ButtonsFrame"
+           Slot LayoutSlot "{6050FAAFD880C0AE}" {
+            Padding -3.5 0 0 0
+           }
+           {
+            OverlayWidgetClass "{630F53674DFE7218}" : "{62B670647C537657}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonLittle.layout" {
+             Name "BlindButtonSubMenu"
+             Slot FrameWidgetSlot "{605163D471D0842A}" {
+              PositionX 4
+              OffsetLeft 4
+              OffsetTop 0
+              SizeX 91
+              OffsetRight -95
+              SizeY 166
+              OffsetBottom -166
+             }
+             components {
+              RHS_TouchScreenButtonPMFHandler "{605163DA5A0FEBA7}" {
+               m_sMenuName "blind"
+              }
+             }
+             {
+              ImageWidgetClass "{604F6188773717EB}" {
+               Prefab "{604F6188773717EB}"
+               Opacity 0.03
+              }
+             }
+            }
+            OverlayWidgetClass "{630F53674DFE721F}" : "{62B670647C537657}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonLittle.layout" {
+             Name "ScanButtonSubMenu"
+             Slot FrameWidgetSlot "{605163D471D08401}" {
+              PositionX 92
+              OffsetLeft 92
+              PositionY 0
+              OffsetTop 0
+              SizeX 91
+              OffsetRight -183
+              SizeY 166
+              OffsetBottom -166
+             }
+             components {
+              RHS_TouchScreenButtonPMFHandler "{605163DA5A0FEBA7}" {
+               m_sMenuName "scan"
+              }
+             }
+            }
+            OverlayWidgetClass "{630F53674DFE721E}" : "{62B670647C537657}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonLittle.layout" {
+             Name "FilterButtonSubMenu"
+             Slot FrameWidgetSlot "{605163D471D08415}" {
+              PositionX 186
+              OffsetLeft 186
+              PositionY 0
+              OffsetTop 0
+              SizeX 91
+              OffsetRight -277
+              SizeY 166
+              OffsetBottom -166
+             }
+             components {
+              RHS_TouchScreenButtonPMFHandler "{605163DA5A0FEBA7}" {
+               m_sMenuName "filter"
+              }
+             }
+            }
+            OverlayWidgetClass "{630F53674DFE721C}" : "{62B670647C537657}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonLittle.layout" {
+             Name "ZoomInButtonSubMenu"
+             Slot FrameWidgetSlot "{605163D471D0841D}" {
+              PositionX 280
+              OffsetLeft 280
+              PositionY 0
+              OffsetTop 0
+              SizeX 91
+              OffsetRight -371
+              SizeY 166
+              OffsetBottom -166
+             }
+             components {
+              RHS_TouchScreenButtonPMFHandler "{605163DA5A0FEBA7}" {
+               m_sMenuName "zoomIn"
+              }
+             }
+            }
+            OverlayWidgetClass "{630F53674DFE7203}" : "{62B670647C537657}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonLittle.layout" {
+             Name "ZoomOutButtonSubMenu"
+             Slot FrameWidgetSlot "{605163D471D08469}" {
+              PositionX 374
+              OffsetLeft 374
+              PositionY 0
+              OffsetTop 0
+              SizeX 91
+              OffsetRight -465
+              SizeY 166
+              OffsetBottom -166
+             }
+             components {
+              RHS_TouchScreenButtonPMFHandler "{605163DA5A0FEBA7}" {
+               m_sMenuName "zoomOut"
+              }
+             }
+            }
+            OverlayWidgetClass "{630F53674DFE7202}" : "{62B670647C537657}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonLittle.layout" {
+             Name "AoButtonSubMenu"
+             Slot FrameWidgetSlot "{605163D471D08472}" {
+              PositionX 468
+              OffsetLeft 468
+              PositionY 0
+              OffsetTop 0
+              SizeX 91
+              OffsetRight -559
+              SizeY 166
+              OffsetBottom -166
+             }
+             components {
+              RHS_TouchScreenButtonPMFHandler "{605163DA5A0FEBA7}" {
+               m_sMenuName "ao"
+              }
+             }
+             {
+              ImageWidgetClass "{604F6188773717EB}" {
+               Prefab "{604F6188773717EB}"
+               Opacity 0.03
+              }
+             }
+            }
+            OverlayWidgetClass "{630F53674DFE7201}" : "{62B670647C537657}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonLittle.layout" {
+             Name "AotButtonSubMenu"
+             Slot FrameWidgetSlot "{605163D471D0847D}" {
+              PositionX 562
+              OffsetLeft 562
+              PositionY 0
+              OffsetTop 0
+              SizeX 91
+              OffsetRight -653
+              SizeY 166
+              OffsetBottom -166
+             }
+             components {
+              RHS_TouchScreenButtonPMFHandler "{605163DA5A0FEBA7}" {
+               m_sMenuName "aot"
+              }
+             }
+             {
+              ImageWidgetClass "{604F6188773717EB}" {
+               Prefab "{604F6188773717EB}"
+               Opacity 0.03
+              }
+             }
+            }
+            OverlayWidgetClass "{630F53674DFE7200}" : "{62B670647C537657}UI/layouts/Vehicles/RU_SHARED/PMF_Screen/PMFWidgets/PMFTouchScreenButtonLittle.layout" {
+             Name "AogButtonSubMenu"
+             Slot FrameWidgetSlot "{605163D471D08447}" {
+              PositionX 656
+              OffsetLeft 656
+              PositionY 0
+              OffsetTop 0
+              SizeX 91
+              OffsetRight -747
+              SizeY 166
+              OffsetBottom -166
+             }
+             components {
+              RHS_TouchScreenButtonPMFHandler "{605163DA5A0FEBA7}" {
+               m_sMenuName "aog"
+              }
+             }
+             {
+              ImageWidgetClass "{604F6188773717EB}" {
+               Prefab "{604F6188773717EB}"
+               Opacity 0.03
+              }
+             }
+            }
+            TextWidgetClass "{630F53674DFE7207}" {
+             Name "FilterText"
+             Slot FrameWidgetSlot "{6094C18D619A00A4}" {
+              PositionX 202
+              OffsetLeft 202
+              PositionY 130
+              OffsetTop 130
+              SizeX 60
+              OffsetRight -262
+              SizeY 21
+              OffsetBottom -151
+             }
+             Color 0.509 0.509 0.509 1
+             Text "Нет + 1"
+             "Font Size" 16
+             "Min Font Size" 16
+             "Horizontal Alignment" Center
+             FontProperties FontProperties "{6094C1898CCB3E40}" {
+              Font "{E2CBA6F76AAA42AF}UI/Fonts/Roboto/Roboto_Regular.fnt"
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      ImageWidgetClass "{630F53674DFE7206}" {
+       Name "PMFCursor"
+       Slot FrameWidgetSlot "{604F44AFA79E0C19}" {
+        PositionX 620
+        OffsetLeft 620
+        PositionY 522
+        OffsetTop 522
+        SizeX 32
+        OffsetRight -652
+        SizeY 32
+        OffsetBottom -554
+       }
+       "Z Order" 1000
+       Texture "{E2763D3D69243D04}UI/layouts/Vehicles/RU_SHARED/images/pmf5/DrongOS/DrongOSCursor.edds"
+       Size 32 32
+      }
+      OverlayWidgetClass "{630F53674DFE7205}" {
+       Name "Boot"
+       Slot FrameWidgetSlot "{60633128A8928EC7}" {
+        Anchor 0 0 1 1
+        PositionX 0
+        OffsetLeft 0
+        PositionY 0
+        OffsetTop 0
+        SizeX -1024
+        OffsetRight 0
+        SizeY -883
+        OffsetBottom 0
+       }
+       "Is Visible" 0
+       "Ignore Cursor" 0
+       components {
+        RHS_TouchScreenBootPMFHandler "{606330D43C8B86D9}" {
+        }
+       }
+       {
+        ImageWidgetClass "{630F53674DFE7204}" {
+         Name "Image"
+         Slot OverlayWidgetSlot "{606330D431B0939A}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         Color 0.012 0.012 0.012 1
+        }
+        TextWidgetClass "{630F53674DFE720B}" {
+         Name "BootConsole"
+         Slot OverlayWidgetSlot "{60633128B4D135C3}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         Text ""\
+         "D-Boot 2024.01-hf745b0l-debug"\
+         "+"\
+         "CPU: BE-M1000"\
+         "Silicon: v3.1"\
+         "Model: MTI Phased Antenna platform..."\
+         "DRAM: EEC disabled 4 GiB"\
+         "MMC: mmc@e0100000: 0"\
+         "Loading Envorniment from SPI Flash... SF: Detected n 25q256a with page size 256 bytes, erase size 4 KiB, total 32 MiB"\
+         "+OK"\
+         "In:      serial@e0001000"\
+         "Out:    serial@e0001000"\
+         "Err:     serial@e0001000"\
+         "Import environment from SD..."\
+         "Hit any key to stop autoboot: 0"\
+         "3986208 bytes read in 14 236 ms (16.1 MiB/s)"\
+         "11887 bytes read in 14 ms (829.1 KiB/s)"\
+         "+## Booting kernel from Legacy Image at 02000000 ..."\
+         "   Image Name: Linux-9.1.0-xilunx-g781eb90-dirt"\
+         "   Image Type: ARM Linux Kernel Image (uncompressed)"\
+         "   Data Size: 4976144 Bytes"\
+         "   Load Address: 00008000"\
+         "   Entry Point: 00008000"\
+         "   Verify Checksum ... OK"\
+         "+## Flattened Device Tree blob at 02a00000"\
+         "   Booting using the fdt blob at 0x2a00000"\
+         "   Loading Kernel Image ... OK"\
+         "   Loading Device Tree to 2cffa000, end 2cfffe6e ... OK"\
+         ""\
+         "+Starting kernel ..."\
+         ""\
+         "++Welcome to DrongOS 01.01 (Linux-9.1.0-xilunx-g781eb90-dirt)"\
+         ""\
+         "+++"
+         Wrap 1
+         FontProperties FontProperties "{606330D4A8242DD8}" {
+          Font "{2AADF22F28B87B4A}UI/Fonts/Display/Display_Regular.fnt"
+         }
+        }
+       }
+      }
+      ImageWidgetClass "{630F53674DFE720A}" {
+       Name "ErrorMsg"
+       Slot FrameWidgetSlot "{61BC02A471187D56}" {
+        PositionX 696
+        OffsetLeft 696
+        PositionY 768
+        OffsetTop 768
+        SizeX 311
+        OffsetRight -1007
+        SizeY 89
+        OffsetBottom -857
+       }
+       "Z Order" 500
+       Texture "{A9E4737E1D5CD199}UI/layouts/Vehicles/RU_SHARED/images/pmf5/pmf_crash.edds"
+       Size 311 89
+      }
+      ImageWidgetClass "{630F53674DFE7209}" {
+       Name "Cursor"
+       Slot FrameWidgetSlot "{604F44AFA79E0C19}" {
+        PositionX -32
+        OffsetLeft -32
+        PositionY -32
+        OffsetTop -32
+        SizeX 32
+        OffsetRight 0
+        SizeY 32
+        OffsetBottom 0
+       }
+       "Z Order" 1000
+       Color 0.502 0 0 1
+       Texture "{FDD5423E69D007F8}UI/Textures/Icons/icons_wrapperUI-128.imageset"
+       Image "careerCircle"
+       Size 128 128
+      }
+     }
+    }
+   }
+  }
+ }
+}
